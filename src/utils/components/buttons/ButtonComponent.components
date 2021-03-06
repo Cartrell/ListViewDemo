@@ -1,0 +1,111 @@
+{
+    "components": [
+        {
+            "name": "ButtonComponent",
+            "baseClass": "BaseButtonComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "normFrame",
+                    "label": "Norm Frame",
+                    "tooltip": "Image frame used when the button is in its normal (up) state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "overFrame",
+                    "label": "Over Frame",
+                    "tooltip": "Image frame used when the active pointer is over this button.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "downFrame",
+                    "label": "Down Frame",
+                    "tooltip": "Image frame used when the active pointer is down. Must first have been over this button.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback function",
+                    "tooltip": "Function to be called when this button is pressed by the active pointer.",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "buttonComponentCallback"
+                    }
+                },
+                {
+                    "name": "context",
+                    "label": "Callback Context",
+                    "tooltip": "Context (this) to be used when calling the callback function.",
+                    "defValue": "this.scene",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "eventName",
+                    "label": "Event Name",
+                    "tooltip": "Name of event that is dispatched by the scene's event emitter when this button is pressed.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "disabledFrame",
+                    "label": "Disabled Frame",
+                    "tooltip": "Image frame used when the button is disabled.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "defaultEnabled",
+                    "label": "Is Enabled?",
+                    "tooltip": "Determines if the button is enabled by default.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "pressedSoundKey",
+                    "label": "Pressed Sound Key",
+                    "tooltip": "Key of the sound that should play when the button is pressed.",
+                    "defValue": "",
+                    "type": {
+                        "id": "audio-key"
+                    }
+                },
+                {
+                    "name": "downSoundKey",
+                    "label": "Down Sound Key",
+                    "tooltip": "Key of the sound that should play when the button is first put in the down state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

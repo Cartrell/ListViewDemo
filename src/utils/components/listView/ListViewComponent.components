@@ -1,0 +1,94 @@
+{
+    "components": [
+        {
+            "name": "ListViewComponent",
+            "baseClass": "BaseContentScrollerComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "_listEntryClass",
+                    "label": "List Entry Class",
+                    "tooltip": "The class that list entries will use when added to the list view. This custom class must extend `ListView`.",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "IListViewEntryClass"
+                    }
+                },
+                {
+                    "name": "panelName",
+                    "label": "Panel Name",
+                    "tooltip": "The name of the panel image.",
+                    "defValue": "panel",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "hzSliderName",
+                    "label": "Horizontal Slider Name",
+                    "tooltip": "The name of horizontal slider.",
+                    "defValue": "hzSlider",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "vtSliderName",
+                    "label": "Vertical Slider Name",
+                    "tooltip": "The name of vertical slider.",
+                    "defValue": "vtSlider",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "listEntryCallback",
+                    "label": "List Entry Callback",
+                    "tooltip": "Function called when a list entry is pressed.",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryCallback"
+                    }
+                },
+                {
+                    "name": "listEntryCallbackContext",
+                    "label": "List Entry Callback Context",
+                    "tooltip": "Context (this) to be used when calling the callback function.",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "unknown"
+                    }
+                },
+                {
+                    "name": "isMultipleSelectionEnabled",
+                    "label": "Is Multiple Selection Enabled?",
+                    "tooltip": "Specifies if multiple items can be selected at once.",
+                    "defValue": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "defaultEntryMargin",
+                    "label": "Default Entry Margin",
+                    "tooltip": "Specifies the y offset between entries. Must be 0 or higher.",
+                    "defValue": 0,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

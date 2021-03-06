@@ -1,0 +1,244 @@
+{
+    "components": [
+        {
+            "name": "SliderComponent",
+            "baseClass": "BaseComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "defaultSize",
+                    "label": "Default Size",
+                    "tooltip": "Width (if horizontal) or height (if vertical) of the slider. If the slider body will use its original size and will not be scaled, you can set this to -1.",
+                    "defValue": 100,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "_isHorizontal",
+                    "label": "Is Horizontal?",
+                    "tooltip": "Set to true if the slider's orientation is horizontal, or false if it's vertical.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "_bodyImage",
+                    "label": "Body Image",
+                    "tooltip": "The scalable portion of the slider's body.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_bodyDisabledImage",
+                    "label": "Disabled Body Image",
+                    "tooltip": "The scalable portion of the slider's body while disabled.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_handleNormImage",
+                    "label": "Handle Norm Image",
+                    "tooltip": "The image that is used for the slider's handle while in its normal state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_handleOverImage",
+                    "label": "Handle Over Image",
+                    "tooltip": "The image that is used for the slider's handle while in its over state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_handleDownImage",
+                    "label": "Handle Down Image",
+                    "tooltip": "The image that is used for the slider's handle while in its down state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_handleDisabledImage",
+                    "label": "Handle Disabled Image",
+                    "tooltip": "The image that is used for the slider's handle in its disabled state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_incrementDelay",
+                    "label": "Increment Delay",
+                    "tooltip": "Delay, in ms, before the slider auto updates after the initial change.",
+                    "defValue": 500,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "_incrementRate",
+                    "label": "Increment Rate",
+                    "tooltip": "Rate, in ms, that the slider will auto update after the initial change.",
+                    "defValue": 0,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "_incrementValue",
+                    "label": "Increment Value",
+                    "tooltip": "Amount by which the slider updates the value with incremental updates when the inc/decremantal buttons are pressed. This value must be between 0 and 1.",
+                    "defValue": 0.1,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "bodyIncrementValue",
+                    "label": "Body Increment Value",
+                    "tooltip": "Amount by which the slider updates the value with incremental updates when the bod is pressed. This value must be between 0 and 1; however, if the value if -1, the handle will be placed at the spot where the body was pressed.",
+                    "defValue": 0.1,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "defaultValue",
+                    "label": "Default Value",
+                    "tooltip": "The starting value of the slider. Must be between 0 and 1.",
+                    "defValue": 0,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "_decBtnNormImage",
+                    "label": "Dec Button Norm Image",
+                    "tooltip": "Texture of the dec button in its normal state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_decBtnOverImage",
+                    "label": "Dec Button Over Image",
+                    "tooltip": "Texture of the dec button in its over state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_decBtnDownImage",
+                    "label": "Dec Button Down Image",
+                    "tooltip": "Texture of the dec button in its down state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_decBtnDisabledImage",
+                    "label": "Dec Button Disabled Image",
+                    "tooltip": "Texture of the dec button in its disabled state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_incBtnNormImage",
+                    "label": "Inc Button Norm Image",
+                    "tooltip": "Texture of the inc button in its normal state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_incBtnOverImage",
+                    "label": "Inc Button Over Image",
+                    "tooltip": "Texture of the inc button in its over state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_incBtnDownImage",
+                    "label": "Inc Button Down Image",
+                    "tooltip": "Texture of the inc button in its down state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "_incBtnDisabledImage",
+                    "label": "Inc Button Disabled Image",
+                    "tooltip": "Texture of the inc button in its disabled state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "defaultIsHandleCentered",
+                    "label": "Is Handle Centered?",
+                    "tooltip": "True if the handle's origin is its center. Otherwise, the original is its left (if horizontal) or top (if vertical).",
+                    "defValue": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "defaultEnabled",
+                    "label": "Is Enabled?",
+                    "tooltip": "Determines if the slider is enabled by default.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "isVisibleDefault",
+                    "label": "Is Visible?",
+                    "tooltip": "Specifies if the slider is visible by default.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "wheelValue",
+                    "label": "Wheel Value",
+                    "tooltip": "Amount by which the slider updates the value with incremental updates when using the mouse wheel. This value must be between 0 and 1.",
+                    "defValue": 0.08,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

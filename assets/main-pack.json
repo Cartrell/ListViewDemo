@@ -1,0 +1,54 @@
+{
+    "section1": {
+        "files": [
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/archetype-icons.json",
+                "path": "assets/atlas/",
+                "key": "archetype-icons"
+            },
+            {
+                "url": "assets/data/archetypes.json",
+                "type": "json",
+                "key": "archetypes"
+            },
+            {
+                "textureURL": "assets/fonts/falco-black_0.png",
+                "fontDataURL": "assets/fonts/falco-black.xml",
+                "type": "bitmapFont",
+                "key": "falco-black"
+            },
+            {
+                "atlasURL": "assets/atlas/main.json",
+                "textureURL": "assets/atlas/main.png",
+                "type": "atlas",
+                "key": "main"
+            },
+            {
+                "textureURL": "assets/fonts/OpenSansBold.png",
+                "fontDataURL": "assets/fonts/OpenSansBold.xml",
+                "type": "bitmapFont",
+                "key": "OpenSansBold"
+            },
+            {
+                "url": [
+                    "assets/audio/snd_button_click.mp3",
+                    "assets/audio/snd_button_click.ogg"
+                ],
+                "type": "audio",
+                "key": "snd_button_click"
+            },
+            {
+                "url": "assets/data/texts.json",
+                "type": "json",
+                "key": "texts"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2
+    }
+}

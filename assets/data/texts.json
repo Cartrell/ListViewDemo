@@ -1,0 +1,9 @@
+{
+  "intro": [
+    "Use the buttons below to add and remove items from the list.\n",
+    "In addition to using the scroll bars, the list view can be scrolled using swiping gestures.\n",
+    "You can double-press on an item to see more information about it."
+  ],
+
+  "multipleSelected": "${length} items selected"
+}

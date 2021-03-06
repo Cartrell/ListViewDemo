@@ -1,0 +1,1006 @@
+[
+  {
+    "name": "Adamancipator",
+    "icon": "icon-adamancipator",
+    "intro": "Adamancipator is an archetype of Rock monsters.",
+    "detail": [
+      "The Adamancipator Tuners all have two effects:",
+      "A: A way to Special Summon themselves, the condition of which varies between them.",
+      "B: The ability to excavate the top five cards of your Deck, and Special Summon a Level 4 or Rock non-Tuner among them, which remains consistent between each of them.",
+      "Similarly, the non-Tuners also have two effects:",
+      "A: An effect that triggers when Special Summoned by the effect of an Adamancipator card, which varies between them.",
+      "B: An ignition effect while in the Graveyard that places a Synchro Monster (that you control, or is in your Graveyard) of the same Attribute back in the Extra Deck, then places itself on top of the Deck.\n",
+      "Look. All I know is that this was once a broken deck, wrecking havoc everywhere, and resulting in the goddamn Block Dragon getting banned."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Adamancipator",
+    "color": "0x5375E9"
+  },
+
+  {
+    "name": "Altergeist",
+    "icon": "icon-altergeist",
+    "intro": "Altergeist is an archetype of female Spellcaster monsters with various Attributes.",
+    "detail": [
+      "The Main Deck monsters have slight disruptive capabilities, negating an opposing card's effects, stopping an attack, returning an opposing card to the hand or sending them to the Graveyard. Also, they have swarming capabilities that can be used to set up the Link Summon of their ace monsters, namely Altergeist Primebanshee and Hexstia, whose effects further reaffirms their swarming and disruptive abilities. Some of them also have an effect that triggers when they are used as Link Materials, searching for resources or retrieving cards from the Graveyard. The deck is supported by Trap Cards that either revive monsters, protect them from attacks or even negate and destroy opposing cards.\n",
+      "The only way I've found to consistently beat these guys (vs bots) is to use some obscure deck. Otherwise, they'll run all up over you with picking your cards off the board, and negating every other effect with that goddamn Protocol or Hexstia."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Altergeist",
+    "color": "0xB0666C"
+  },
+
+  {
+    "name": "Ancient Gear",
+    "icon": "icon-ancient-gear",
+    "intro": "Ancient Gear, is an archetype of Machine monsters.",
+    "detail": [
+      "Ancient Gear Decks focus on either Tribute Summons or Fusion Summons. The signature feature of the Ancient Gear monsters is to prevent the activation of Spell/Trap cards during their attack. This allows Ancient Gear monsters to attack without fear of being stopped by any Spell/Trap Cards. Due to the prevalence of monster effects that can be activated during the Battle, newer monsters also prevent their activation. (They aren't immune to Spell/Trap Cards, however.)\n",
+      "Ancient. You mean 'old'. As in 'old-ass'."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Ancient_Gear",
+    "color": "0x8B6F72"
+  },
+
+  {
+    "name": "Blackwing",
+    "icon": "icon-blackwing",
+    "intro": "Blackwing is an archetype of mostly Dark, Winged-Beast monsters.",
+    "detail": [
+      "Blackwings have a strong emphasis on swarming and utilizing hand traps. Most have the ability to Special Summon themselves from the hand; others carry special effects that utilize the Graveyard and Hand to advance the gamestate. Because of these swarming capabilities, they give many opportunities to Synchro Summon and Xyz Summon. Their overall gameplan allows for quick OTKs all the while setting up multiple layers of contingency plans and proofing for additional OTKs in future turns.\n",
+      "Of course they'd be good at swarming. They're a buncha fuckin' birds. What'chu expect. You put some food out there, and 10 seconds later, these guys are all over that shit. Greedeh-Wang is more like it."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Blackwing",
+    "color": "0x505691"
+  },
+
+  {
+    "name": "Blue-Eyes",
+    "icon": "icon-blue-eyes",
+    "intro": "Blue-Eyes is an archetype of LIGHT and DARK Dragon monsters.",
+    "detail": [
+      "Blue-Eyes Decks aim for a field control strategy, usually by destroying opponent monsters. They can Synchro Summon monsters such as Azure-Eyes Silver Dragon to lock down the opponent's field or help Summon stronger monsters and set up a Fusion Summon for a finishing move.\n",
+      "Buster Blader, the Dragon Destroyer Swordsman anyone? >:)"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Blue-Eyes",
+    "color": "0x6794CB"
+  },
+
+  {
+    "name": "Borrel",
+    "icon": "icon-borrel",
+    "intro": "Borrel, is an archetype of DARK Dragon monsters. It is related to the Rokket archetype.",
+    "detail": [
+      "The archetype synergizes well with the Rokket archetype, seeing how Borreload Dragon is able to trigger the primary effects of all Rokket monsters to gain field advantage. The secondary effects of the Rokket monsters will also activate, summoning another monster in their place It is also able to snatch other monsters the opponent controls and cannot be targeted by said monsters' effects.\n",
+      "I remember the first Borrel monster I encountered. I was dueling vs Altergeist bot, racking my brain trying to find a way to beat these fuckers after losing to them 1029384756 times. I finally found Blue-Eyes Chaos MAX Dragon, and I was like, 'Yes! Finally, something that can't be targetted or destroyed, and it has very high ATK! Let's see you beat this!' On its next turn, the AI played what seemed like half its deck in a combo, then busts outta nowhere some Borrelsword Dragon, that boosted its ATK way over my MAX, and power-crapped the hell outta it! I'm like, 'DA FUCK IS DIS SHIT!? RRRAWR! -Sigh- Welp, back to the draging board. -_-"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Borrel",
+    "color": "0x5BF0B5"
+  },
+
+  {
+    "name": "Chaos",
+    "icon": "icon-chaos",
+    "intro": "Chaos (and Black Luster Soldier) are an archetype of monsters that thematically combine LIGHT and DARK.",
+    "detail": [
+      "Chaos Emperor Dragon - Envoy of the End was is known as one of, if not the most broken card of all time. The card was particularly infamous for its role in the Yata-Garasu Lockdown, a very deadly and broken Deck with the power to use just two cards to absolutely lockdown the opponent, making it impossible for them to play or even see a single one of their cards for the rest of the Duel.\n",
+      "One of THEEE most cheat'n'est cards ever, it arguably started the goddamn banlist in the first place.\n",
+      "Because of you, my Pot of Greed, Cyber Jar, and Fiber Jar all got banned. Damn you for inciting the banlist, Chaos. Damn you."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Chaos",
+    "color": "0xD29B65"
+  },
+
+  {
+    "name": "Crystal Beast",
+    "icon": "icon-crystal-beast ",
+    "intro": "Crystal Beast is an archetype of seven Level 3-4 monsters with mostly EARTH and WIND, and Beast that all share the same effect of becoming Continuous Spell Cards upon their destruction.",
+    "detail": [
+      "Crystal Beast Decks tend to have a wide variety of searching options for putting Crystal Beast cards on the field, either Summoned as monsters or placed in the Spell & Trap Zone as an effect-less Continuous Spell Card, and they have a couple of extra drawing options to speed up the use of the Deck. Because of these effects working together, Crystal Beast users can wind up many cards ahead of their opponent, and the various searching options facilitate the Summoning of Rainbow Dragon far quicker than would otherwise be possible. The archetype also supports come-from-behind wins quite easily due to the double whammy of Crystal Abundance, which wipes out everything on the field and then swarms the field with monsters from the Graveyard, and the Field Spell Card of the set, Ancient City - Rainbow Ruins, gains a new effect for every Continuous Spell Card Crystal Beasts you control. The archetype is also somewhat resistant to opponents who use Spell and Trap destruction effects, as a couple of cards can quickly put the Crystal Beasts in Spell form back onto the back row from the Graveyard, and the Field Spell Card resists being destroyed itself. "
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Crystal_Beast",
+    "color": "0xFF7FED"
+  },
+
+  {
+    "name": "Cyber Dragon",
+    "icon": "icon-cyber-dragon",
+    "intro": "Cyber Dragon is an archetype of cards that are also part of the Cyber archetype. They are a group of LIGHT Machine monsters.",
+    "detail": [
+      "The main strategy for these cards is to Summon the stronger Cyber Dragon Fusion Monsters. When building a Deck around these cards use strong Machine monster cards to help keep the field clear and to unleash the devastating powers of the Chimeratech cards. Union Monsters, like Heavy Mech Support Platform and Armored Cybern, can help with supporting monsters already on the field.\n",
+      "Cyber Dragon Infinity. Done."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Cyber_Dragon_(archetype)",
+    "color": "0x808080"
+  },
+
+  {
+    "name": "D/D/D",
+    "icon": "icon-ddd",
+    "intro": "D/D/D (Different Dimension Daemon), pronounced \"Triple D\" in the dubbed anime, is a sub-archetype of the D/D archetype.",
+    "detail": [
+      "The D/D/D monsters serve as the \"bosses\" of the D/D archetype due to most of the archetype's gameplay focusing on their summoning, along with the fact that D/D/D monsters generally have higher ATK and DEF and stronger effects than non D/D/D D/D monsters (That's a lotta Ds). With the release of this archetype's first Link Monster, D/D/D Abyss King Gilgamesh, in LINK VRAINS Pack 2, it becomes the first archetype of the game capable of using all Summoning methods available at the moment, save for Ritual Summoning.",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "D/D/D/D/D/D/D/D/D/D/D/D/D/E/D/D/D/D"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/D/D/D",
+    "color": "0xC0C0C0"
+  },
+
+  {
+    "name": "Dark World ",
+    "icon": "icon-dark-world",
+    "intro": "Dark World is an archetype consisting of DARK Fiend monsters.",
+    "detail": [
+      "Dark World cards are generally intended to gain advantage by activating Summoning, destruction, and other effects through discarding cards (through effects) from your hand into the Graveyard. Many Dark World monsters gain extra effects in the graveyard if they were discarded by an opponent's card effect.\n",
+      "They are based around effects that activate when they are discarded from the hand to the Graveyard by a card effect. This does not include costs that require the user to discard, such as Lightning Vortex or effects that send cards from the hand to the Graveyard, without discarding, such as Hand Destruction.\n",
+      "Dark World monsters can rapidly and aggressively swarm the field and overwhelm the opponent by destroying and discarding your opponent's cards. The deck's main boss monster, Grapha, Dragon Lord of Dark World, has a built-in destruction effect and the ability to Special Summon itself from the Graveyard; coupled with its high ATK, it is the key card in any Dark World Deck.\n",
+      "Welcome to my World of Darkness, mwa ha haaaaaaa! >:)"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Dark_World",
+    "color": "0x7168A1"
+  },
+
+  {
+    "name": "Drytron",
+    "icon": "icon-drytron",
+    "intro": "Drytron is an archetype of LIGHT Machine Special Summon Monsters.",
+    "detail": [
+      "The deck is focused around ritual summoning monsters from hand or graveyard tributing light machine monsters from you hand or field whose whose attack value equals or exceeds the ritual monsters attack value. It is the first archetype to utilize this new mechanic of ritual summoning, all the others requiring levels and not attack value. All the Level 1 Drytron monsters have 2000 ATK and 0 DEF, as well as the following effects:\n",
+      "Cannot be Normal Summoned/Set. Must be Special Summoned with the effect of a Drytron card. You can Tribute 1 other Drytron monster, or 1 Ritual Monster, from your hand or field; Special Summon this card from your hand or GY in Defense Position, then you can (do some specific action here). You cannot Special Summon monsters, except monsters that cannot be Normal Summoned/Set, the turn you activate this effect. You can only use this effect of said card once per turn."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Drytron",
+    "color": "0x0094FF"
+  },
+
+  {
+    "name": "Elemental HERO",
+    "icon": "icon-elemental-hero",
+    "intro": "Elemental HERO is a HERO sub-archetype. Most members of this sub-archetype are Warrior monsters.",
+    "detail": [
+      "Elemental HEROs focus heavily on Fusion Summoning. Most of these fall into two primary Elemental HERO monsters categories that can be fused with one another. Normal Monsters from the anime (Named Materials for Fusion Summoning) and manga counterparts that are retrained versions with effects (Fusion Materials are generic).\n",
+      "Avian, Burstinatrix, Clayman, and Bubbleman are often grouped together because there is at least one Fusion Monster for each pair of them (except Avian and Clayman), as well as Elemental HERO Electrum using all 4 as Fusion Materials.\n",
+      "Bladedge, Wildheart, and Necroshade are often grouped together because there is at least one Fusion Monster for each pair of them (except Bladedge and Necroshade).\n",
+      "Sparkman was introduced very early on and is usually in card artworks like Fifth Hope and HERO's Bond alongside the original four, yet has more fusions with the later three.\n",
+      "Elemental HERO Neos is seen as having his own support, often grouped with the Neo-Spacians and the Neos archetype of Fusion Monsters.\n",
+      "Lastly, Stratos and Shadow Mist are considered a group of their own due to appearing in the manga but not associated with the Omni HEROes and are better suited to aiding most HERO decks, the Masked HEROes in particular. Blazeman is considered part of this group too but never appeared in the manga."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Elemental_HERO",
+    "color": "0x0094FF"
+  },
+
+  {
+    "name": "Exodia",
+    "icon": "icon-exodia",
+    "intro": "Exodia is an archetype of DARK Spellcaster monsters. They are focused on alternative victory conditions, and has support related to summoning or strengthening Beatsticks resembling Exodia. It is related to the Forbidden One archetype.",
+    "detail": [
+      "Gimme the goddamn heads."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Exodia",
+    "color": "0xFFAF29"
+  },
+
+  {
+    "name": "Eyes Restrict",
+    "icon": "icon-eyes-restrict",
+    "intro": "Eyes Restrict is an archetype of Level 1 DARK Spellcaster Fusion Monsters with 0 ATK and DEF. All of its members list Relinquished as one of its Fusion Materials.",
+    "detail": [
+      "The monsters of this archetype, Millennium-Eyes Restrict, and Thousand-Eyes Restrict, revolve around \"absorbing\" your opponent's monsters, a rather underhanded tactic.",
+      "These guys like stealing your monsters, and absorbing them. Use your own damn monsters! I mean, shit. It's not my fault my monsters are better than yours."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Eyes_Restrict",
+    "color": "0x21007F"
+  },
+
+  {
+    "name": "Flower Cardian",
+    "icon": "icon-flower-cardian",
+    "intro": "Flower Cardian is an archetype of DARK Warrior monsters.",
+    "detail": [
+      "Flower Cardian monsters look like giant hanafuda cards.\n",
+      "Each Main Deck monster's Level is equal to the month represented by its suit; for example, Matsu is the first suit, so Flower Cardian Pine and Flower Cardian Pine with Crane are both Level 1.\n",
+      "This archetype revolves around performing plays that mirror plays from hanafuda games. Their effects allow the player to Tribute the Flower Cardian monsters worth 1 point in hanafuda games on their field to Special Summon the monster of matching Level worth 20 points from their hand, which will then allow the player to draw 1 card. If the drawn card is a Flower Cardian who has another of matching Level on the field, the player can keep Special Summoning Flower Cardian monsters and drawing cards. This arrangement is meant to gather the right cards on the field to perform a combination named Yaku, represented by a Synchro Summon.\n"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Flower_Cardian",
+    "color": "0x7F3300"
+  },
+
+  {
+    "name": "Forbidden",
+    "icon": "icon-forbidden",
+    "intro": "Forbidden is an archetype of Quick-Play Spell Cards sharing similar artworks and effects.",
+    "detail": [
+      "All the Forbidden cards focus on manipulating monsters' ATK (or, in the case of Forbidden Scripture, ignoring changes in ATK and DEF during battles) and card effects, either by granting monsters immunity or by negating their effects.\n",
+      "The woman featured in each card's artwork may represent Pandora of Greek mythology. She later appears as the Effect Monster Condemned Maiden, implying that she was punished for using the four items, as seen in Solemn Scolding, eventually becoming the Condemned Witch, and then the Condemned Darklord. The artwork of Forbidden Scripture further hints that these items are truly owned by the old man featured in Solemn Judgment (identified as God in the Trap's Japanese name).\n",
+      "If you ask me, she's releasing her repressed dark side. You beta guys out there (you know who you are) betta watch out. Y'all don't stand a chance against her."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Forbidden_(archetype)",
+    "color": "0xDDDDDD"
+  },
+
+  {
+    "name": "Forbidden One",
+    "icon": "icon-forbidden-one",
+    "intro": "Forbidden One is an archetype of DARK Spellcaster monsters.",
+    "detail": [
+      "Forbidden One was one of the first Deck themes, and it still remains a popular one.\n",
+      "While many people refer to the Forbidden One cards as Exodia cards, the Exodia archetype is a separate but related archetype, and the only Forbidden One card to be a part of it is Exodia the Forbidden One (the head).\n",
+      "The main card, Exodia the Forbidden One, is one of the first five Effect Monsters ever to be released and the first card to have an alternative victory condition.\n",
+      "The Forbidden One cards are some of the most iconic cards in the franchise, being well known for their automatic win condition and Yugi's use of them in the first episode of the anime.\n",
+      "Notably, Exodia the Forbidden One and the other Forbidden One cards were the only monsters ever specifically mentioned in the rulebooks (other than as an example), due to Exodia the Forbidden One being the only card with an alternative victory condition at the time. Exodia the Forbidden One is no longer mentioned in the rulebook, as its card text suffices to clarify its effect.\n",
+      "Originally, the complete Forbidden One set was extremely hard to obtain, with all five pieces being Ultra Rare; they have since been reprinted in lesser rarities, making a complete set easy to obtain. Often Exodia the Forbidden One is printed as an Ultra Rare and the limbs as Commons. Yugi's Legendary Decks prints all five pieces as Fixed Rarity Ultra Rares.\n"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Forbidden_One",
+    "color": "0xB15B2F"
+  },
+
+  {
+    "name": "Gadget",
+    "icon": "icon-gadget",
+    "intro": "Gadget is an archetype of mostly Level 4 Machine monsters.",
+    "detail": [
+      "The Colored Gadgets, Green Gadget, Red Gadget, Yellow Gadget, Gold Gadget, and Silver Gadget, are also closely related to the Ancient Gear archetype in terms of support, as seen in cards such as Ancient Gear Reactor Dragon.\n",
+      "Gadgets also have support from Morphtronics: Gadget Hauler, Gadget Driver, and Gadget Arms.\n",
+      "There is also one other Gadget card, Gadget Soldier.\n",
+      "The most common way to play the Gadget archetype is to use it with Machina cards. A Machina Gadget Deck focuses on bringing out Machina Fortress on to the field, generating a constant stream of Gadget monsters through Green, Red and Yellow Gadget, maintaining advantage over the opponent. With the advent of Gold and Silver Gadget, the player can get another Gadget monster on to the field more quickly.\n"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Gadget",
+    "color": "0xFF0000"
+  },
+
+  {
+    "name": "Galaxy",
+    "icon": "icon-galaxy",
+    "intro": "Galaxy is an archetype of powerful monsters, and the Spell and Trap Cards usually function as support or have synergy with the related Photon archetype.",
+    "detail": [
+      "The archetype is geared towards quickly Summoning the Galaxy-Eyes Xyz Monsters as fast as possible.\n",
+      "A Galaxy Deck focuses on Summoning several Level 8 monsters for Xyz Summons. By using Accellight to Special Summon a Galaxy Wizard, its Level can be changed to 8, and using Galaxy Expedition to bring out Galaxy-Eyes Photon Dragon, a Rank 8 Xyz Monster can be instantly Summoned. Galaxy Zero can be used to revive a Level 8 monster, Normal Summon Galaxy Knight, and revive GEPD to overlay for Neo Galaxy-Eyes Photon Dragon, Number 107: Galaxy-Eyes Tachyon Dragon, or Number 62: Galaxy-Eyes Prime Photon Dragon.\n",
+      "Galaxy Wizard (who looks like a moth) can search out most of the important Spells and monsters in the Deck."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Galaxy",
+    "color": "0xFFF0A8"
+  },
+
+  {
+    "name": "Gravekeeper's",
+    "icon": "icon-gravekeepers",
+    "intro": "Gravekeeper's is an archetype of Spellcaster, mostly DARK monsters based on ancient Egyptian tomb-keepers.",
+    "detail": [
+      "Gravekeeper's Decks usually revolve around Necrovalley and gains power from it, while avoiding its drawbacks. This Deck tends to prevent the opponent from affecting cards placed in the Graveyard, as well as keeping field control with its ability to swarm.\n",
+      "Arguably, they could be considered the first group of cards that could truly be called an archetype, as they were the first archetype to receive archetype-specific support.\n",
+      "But my question is this. It's \"Gravekeeper's\", with an apostrophe \"s\". The Gravekeeper's what. lol"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Gravekeeper%27s",
+    "color": "0xB200FF"
+  },
+
+  {
+    "name": "HERO",
+    "icon": "icon-hero",
+    "intro": "HERO is an archetype that includes six archetypes and series.",
+    "detail": [
+      "This archetype was originally divided into five groups: Elemental Hero, Evil Hero, Destiny Hero, Masked Hero, and Vision Hero, before later being unified as the HERO archetype (with Problem-Solving Card Text renaming them \"Hero\" to \"HERO\".\n",
+      "We need a VILLIAN archetype. It can't just be all heroes."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/HERO",
+    "color": "0x00C4FF"
+  },
+
+  {
+    "name": "Hole",
+    "icon": "icon-hole",
+    "intro": "Hole is an archetype of cards supported by the Traptrix archetype.",
+    "detail": [
+      "Although they are related to the Trap Hole archetype through the Traptrix, they are a separate group of cards. Since all support for the Hole archetype also supports the Trap Hole archetype, in the TCG, the Trap Hole archetype is treated as a sub-archetype of the Hole archetype.\n",
+      "IN the hole is more like. Or maybe, \"that guy's an asshole\"."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Hole",
+    "color": "0x000000"
+  },
+
+  {
+    "name": "Horus the Black Flame Dragon",
+    "icon": "icon-horus",
+    "intro": "Horus the Black Flame Dragon is an archetype of 3 FIRE Dragon LV monsters.",
+    "detail": [
+      "A sub-archetype of the LV archetype, they are one of two groups of Dragon LV monsters, the other being the Armed Dragon series.\n",
+      "The major draw of this LV family is the capability of Horus the Black Flame Dragon LV8, which can shut down the activation of any Spell Card as long as it's face-up on the field. The dreaded Horus Lockdown involves a combo of Horus the Black Flame Dragon LV8 and Royal Decree, which shuts down the effects of Spells and Traps. The best part of this combo is that the player controlling Horus the Black Flame Dragon LV8 is still able to use the effects of Spells, while their opponents cannot."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Horus_the_Black_Flame_Dragon",
+    "color": "0x7F3300"
+  },
+
+  {
+    "name": "Igknight",
+    "icon": "icon-igknight",
+    "intro": "Igknight is an archetype of FIRE Warrior monsters.",
+    "detail": [
+      "Igknight monsters center around destroying each other to limit the opponent's field while setting up a mass Pendulum Summon, as destroyed Pendulum Monsters go to the Extra Deck rather than the Graveyard, allowing them to be summoned to the field en masse.\n",
+      "The archetype as a whole is unusual for the current metagame, as it is one of the first archetypes for which almost every major monster card is a Normal Monster.\n",
+      "Additionally, the Igknights have access to a variety of Extra Deck monsters. For example, being Normal Monsters, they can be used as Material to Fusion Summon First of the Dragons, a monster that can be somewhat tough to get rid of."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Igknight",
+    "color": "0xFBDF9D"
+  },
+
+  {
+    "name": "Impcantation",
+    "icon": "icon-impcantation",
+    "intro": "Impcantation is an archetype of LIGHT and DARK monsters with various Types that support Ritual Summoning.",
+    "detail": [
+      "Almost all of its members are Effect Monsters with 0 ATK and DEF.\n",
+      "Because the archetype largely exists to support Ritual Summoning decks, it's hard to say too much about the playstyle of the archetype, as it largely depends in what Deck they are played in. The basis of their effects is to obtain Ritual Monsters when the player has Ritual Spells, and vice versa. They therefore work well with other generic Ritual support like Manju of the Ten Thousand Hands in the event the player has neither a Ritual Spell or Ritual Monster.\n",
+      "The basic effects of the 4 Effect Impcantations trigger when they are Special Summoned from the Deck. They then add a Ritual Monster/Spell to the hand from the Deck/GY (see above table). If one ends up in your hand, it can, by revealing a card of the type in would normally add, Special Summon itself from your hand and any other Impcantation from your Deck. These effects are exclusive hard once-per turn effects, so the player cannot use any effect of an Impcantation with the same name on the same turn either the reveal effect or the adding effect is used. Nonetheless, this is an incredible effect combination from a card advantage standpoint, being an almost unheard-of +2, all without Normal Summoning. This helps many Ritual Decks overcome the traditional Ritual weakness of poor card advantage (as unlike Extra Deck mechanics, Ritual Summoning does not end in a +1 from the Extra Deck, and the Ritual Spell requirement makes it worse still) by simply gaining mass plus-ing effects to compensate the loss of Ritual Summoning."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Impcantation",
+    "color": "0x4CFF00"
+  },
+
+  {
+    "name": "Invoked",
+    "icon": "icon-invoked",
+    "intro": "Invoked is an archetype of Fusion Monsters.",
+    "detail": [
+      "This archetype's plays start with either the Field Spell Magical Meltdown to search Aleister the Invoker who searches for this archetype's Fusion Spell card called Invocation, this can Fusion Summon any monster using Materials from the hand, and can also banish Fusion Materials from either GY or one's own field if Summoning one of the Invoked monsters. It can also recycle itself to the Deck and a banished Aleister the Invoker to the hand. Aleister can also act as a handtrap, giving any Fusion Monster +1000 ATK until the end of the turn.\n",
+      "This traits give the Invoked strategy a lot of versatility for many reasons. Firstly, they can access generic Fusion Monsters without needing Polymerization or other off-archetype cards. Secondly, only one Aleister is needed to produce an unending stream of Invoked monsters. Thirdly, the ability to banish monsters from either GY means it is possible to deny your opponent a chance to recycle important monsters while possibly gaining an unusual Attribute for your Summon. Finally, the ability to banish other monsters from one's own GY means it is possible to use the monsters on the field for a Link Summon, before getting a second use from them.\n",
+      "However, it is rare to see \"pure\" Invoked Decks, as there is not too many Main Deck components to this Deck, and Aleister is the only Main Deck monster, requiring other monsters to be played to access most of the Invoked monsters."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Invoked",
+    "color": "0x00D1FF"
+  },
+
+  {
+    "name": "Jester",
+    "icon": "icon-jester",
+    "intro": "Jester is an archetype of Spellcaster monsters.",
+    "detail": [
+      "They focus on loading your Spell & Trap Zones in order to power up Jester Lord or Jester Queen, as well as clearing the field of monsters to allow Jester Lord to attack directly, as its effect does not work if it is not the only monster on the field. With the exception of Jester Queen, all members of this archetype are Level 1 monsters with 0 ATK and DEF. They are also all DARK monsters, except for the LIGHT Majestic Jester.\n",
+      "The main strategy of this Deck is to keep Jester Lord as the only monster on the field, by destroying/bouncing/banishing/tributing your opponent's monsters and preventing their summons."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Jester",
+    "color": "0xA2FF7A"
+  },
+
+  {
+    "name": "Jinzo",
+    "icon": "icon-jinzo",
+    "intro": "Jinzo is an archetype of DARK Machine monsters.",
+    "detail": [
+      "Monsters of the Jinzo archetype revolve around the negation of Trap Cards.\n",
+      "The main objective of this deck is to summon Jinzo to lock your opponent's Traps, with Jinzo - Jector being the best way to do it, either by using its own effect or Special Summon it (with a card like Summoner Monk) and then using Inferno Reckless Summon to provide extra Trap shutdown, or set-up for Rank 6 Xyz Summoning. Also, with all the archetype's monsters being DARK monsters, cards like Allure of Darkness and The Beginning of the End are the perfect draw power engine to use along with them."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Jinzo_(archetype)",
+    "color": "0xFF006E"
+  },
+
+  {
+    "name": "Junk",
+    "icon": "icon-junk",
+    "intro": "Junk is an archetype of Machine and Warrior monsters.",
+    "detail": [
+      "As the name implies, the focus of Junk monsters is utilizing lower Level monsters to build powerful Synchro Monsters. Junk monsters are usually used with monsters with low Levels to use as Synchro Material Monsters. One familiar combo is using Junk Synchron to Special Summon Level 2 or lower monsters such as Speed Warrior and Quillbolt Hedgehog from the Graveyard in preparation for Synchro Summons, especially Junk Warrior, which gains ATK equal to the combined ATK of all Level 2 or lower monsters you control.\n",
+      "When you're playing that RPG, and you know they're gonna start you off with that junk stick for a weapon, and piece of crap shirt for armor."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Junk",
+    "color": "0xA0A0A0"
+  },
+
+  {
+    "name": "Kaiju",
+    "icon": "icon-kaiju",
+    "intro": "Kaiju is an archetype of high-Level monsters with various Attributes and Types (primarily LIGHT & Machine).",
+    "detail": [
+      "The archetype has become infamous for its ability to provide cheap and generic monster removal while bypassing almost any protection the target may have. However, due to Master Rule 4, Kaiju monsters cannot get rid of monsters in the Extra Monster Zone if that player's Main Monster Zone is full.\n",
+      "Each Kaiju monster is based on a monster from different kaiju franchises, such as Godzilla, Ultraman, Pacific Rim and Gamera. Their Field Spell represents a common setting for the movies, while the other Spell/Trap Cards seem to be common scenes in these movies.\n",
+      "Each member with the exception of Mecha-Dogoran, can Tribute an opponent's monster to Summon it to their side of the field, similar to Volcanic Queen or Lava Golem, and can be Special Summoned from the hand if the opponent controls a Kaiju monster, most likely symbolizing the obsession these monsters have with fighting each other in movies."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Kaiju",
+    "color": "0xFF8600"
+  },
+
+  {
+    "name": "Knightmare",
+    "icon": "icon-knightmare",
+    "intro": "Knightmare is an archetype related to and supported by, the World Legacy archetype and is focused on Link Summons and being co-linked.",
+    "detail": [
+      "The main goal of this archetype is to build a field with as many co-linked monsters as possible, to the point of achieving a state of Extra Link. All the Knightmare Link Monsters revealed so far have effects that activate when they are Link Summoned, by discarding 1 card as cost, and if they were co-linked when those effects were activated - draw 1 card as a bonus; also, they have Continuous Effects that either benefit monsters that are co-linked or burden monsters that are not.\n",
+      "All of this archetype's Link Monsters are Fiends.\n",
+      "Since they do not require Link Materials of specific Type(s) or Attribute(s), any engine capable of swarming the field with monsters with different names may help Link Summon them."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Knightmare",
+    "color": "0x404040"
+  },
+
+  {
+    "name": "Kuriboh",
+    "icon": "icon-kuriboh",
+    "intro": "Kuriboh is an archetype used throughout the Yu-Gi-Oh! franchise.",
+    "detail": [
+      "Most of its members are Level 1 monsters with 300 ATK and 200 DEF.\n",
+      "Kuriboh monsters are generally defensive in nature, and on their own, they tend to prevent battle damage from occurring to the user. However, some of their support cards allow them to rapidly turn the tables upon the opponent, such as the powerful Winged Kuriboh LV10 and Detonate. Most Kuriboh monsters have 200 DEF, so Flamvell Poun would be perfect for searching your Deck for them. So far, all non-monster support cards for the Kuriboh monsters are Quick-Play Spell Cards, allowing them to function quickly in a themed Deck.\n",
+      "These little furballs can cause some serious trouble if you let them start multiplying. There's never JUST one. Make sure you keep your place CLEAN! Annoying ass bastards."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Kuriboh_(archetype)",
+    "color": "0xFF6A00"
+  },
+
+  {
+    "name": "Legendary Dragon",
+    "icon": "icon-legendary-dragon",
+    "intro": "Legendary Dragon is an archetype of the dragon forms of the three Legendary Knights",
+    "detail": [
+      "Despite all of the members of this archetype lacking Legendary Dragon in their names, they each include a name condition that causes them to always be treated as Legendary Dragon cards.\n",
+      "These cards first appeared in the Waking the Dragons arc of the Yu-Gi-Oh! anime.\n",
+      "Yugi Muto, Joey Wheeler, and Seto Kaiba each receive 1 of the 3 Legendary Dragon cards: The Eye of Timaeus, The Claw of Hermos and The Fang of Critias, respectively. According to Kaiba, the Dragon he received, Critias, seemed just as powerful as the Egyptian God Cards."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Legendary_Dragon",
+    "color": "0x7CAAAA"
+  },
+
+  {
+    "name": "Legendary Knight",
+    "icon": "icon-legendary-knight",
+    "intro": "Legendary Knight is an archetype of the true forms of the three Legendary Dragons.",
+    "detail": [
+      "This archetype was introduced in Dragons of Legend and was featured towards the end of the Waking the Dragons arc of the Yu-Gi-Oh! anime. All of its members are Level 8 LIGHT Warrior monsters with 2800 ATK and 1800 DEF.\n",
+      "The Legendary Knights are named after Plato's late dialogues and characters that appear in them: Critias, Hermocrates, and Timaeus.\n",
+      "The three members of the archetype are Legendary Knight Critias, Legendary Knight Hermos, and Legendary Knight Timaeus. All three have an effect that allows them to 'absorb' another card's effect, based on the effect of their corresponding Legendary Dragon."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Legendary_Knight",
+    "color": "0xE0FFD8"
+  },
+
+  {
+    "name": "LV",
+    "icon": "icon-lv",
+    "intro": "LV is an archetype whose monsters are capable of sending themselves to the Graveyard to Summon a more powerful version of themselves once certain conditions are met.",
+    "detail": [
+      "Typically, the higher Level monsters of a series can only use their effects when Special Summoned by their predecessor, with the highest Levels only Summonable by the effect of their predecessor.\n",
+      "Some LV monsters automatically \"level up\" into more powerful cards during the Standby Phase, while others have to fulfill conditions, such as destroying an opponent's monster by battle. Most of the high-end LV monsters tend to have extraordinary powerful effects, ranging from the fearsome lockdown of Horus the Black Flame Dragon LV8 that prevents the opponent from using Spell Cards to the ability of Armed Dragon LV10 that wipes out many opposing monsters at once. The use of LV Monsters in a player's Deck typically grants easy access to something very strong and very quickly without the need to have the stronger monster in the hand first, and grants an additional Deck Thinning effect because of this as well.\n",
+      "Until you get stuck with that LV monster who needs 1029384756 EXP points to the next LV, and it cannot be LV'd up by other ways..."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/LV",
+    "color": "0xFFB27F"
+  },
+
+  {
+    "name": "Magnet Warrior",
+    "icon": "icon-magnet-warrior",
+    "intro": "Magnet Warrior is an archetype of EARTH Rock monsters.",
+    "detail": [
+      "Each Magnet Warrior monster is named after a Greek letter. The OCG/TCG Magnet Warriors were originally comprised of a trio of Level 4 Normal Monsters: Alpha, Beta, and Gamma, which combine to Summon Valkyrion the Magna Warrior. This trio was later augmented with the addition of Effect Monster Delta The Magnet Warrior, which aids in the Summon of Valkyrion.\n",
+      "The original trio of Magnet Warriors later received Level 3 Effect Monster retrained versions known as Electromagnet Warriors. They are also comprised of Alpha, Beta and Gamma, which combine to Summon Berserkion the Electromagna Warrior, a retrain of Valkyrion."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Magna_Warrior",
+    "color": "0xFF00DC"
+  },
+
+  {
+    "name": "Mekk-Knight",
+    "icon": "icon-mekk-knight",
+    "intro": "Mekk-Knight is an archetype of LIGHT monsters. The archetype is both related to and supported by the World Legacy archetype.",
+    "detail": [
+      "All of its Main Deck members are Psychic monsters, while its Extra Deck members (with the exception of Mekk-Knight of the Morning Star') are Cyberse monsters.\n",
+      "Amost all Mekk-Knight Main Deck effect monsters share the following effect:\n",
+      "\"If 2 or more cards are in the same column, you can Special Summon this card (from your hand) to that column.\"\n",
+      "Mekk-Knight Monsters rely on Special Summoning from the Hand and the Search effects like Purple Nightfall and Blue Sky; Purple Nightfall and Indigo Eclipse also have an effect to move a Monster out the way for another Special Summon being just as crucial to dump the Hand fast.\n",
+      "They can also modify their formation to fit almost every situation at will, mostly to enable the negation effects of World Legacy Key, World Legacy Whispers, and World Legacy's Secret. Mekk-Knight Blue Sky and Mekk-Knight Purple Nightfall are the most important monsters within the deck due to their search effects, and together with World Legacy's Memory, allow them to keep Summoning monsters without pause and use them to either Link Summon, or straight-up inflict damage."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Mekk-Knight",
+    "color": "303030"
+  },
+
+  {
+    "name": "Metaphys",
+    "icon": "icon-metaphys",
+    "intro": "Metaphys is an archetype of LIGHT Wyrm monsters.",
+    "detail": [
+      "The Effect Monsters revolve around banishing each other and gaining advantage upon being banished. Some of them gain an additional effect when Special Summoned by the effect of a Metaphys monster. Their effects are quite diverse, ranging from the search of resources to the mass removal of monsters or spells and traps. Due to the mechanic revolving around their banishment, they have synergy with effects like that of Sacred Sword of Seven Stars, D.D. Sprite, Gold Sarcophagus, etc."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Metaphys",
+    "color": "0xE6B2FF"
+  },
+
+  {
+    "name": "Necrovalley",
+    "icon": "icon-necrovalley",
+    "intro": "Necrovalley is an archetype based around the Field Spell of the same name and is best used with the Gravekeeper's archetype.",
+    "detail": [
+      "There are only three cards, each focusing on controlling the field and limiting the options of your opponent by preventing them from using their Graveyard as a resource, banishing cards in the Graveyard, denying Special Summoning of non-Gravekeeper's monsters, and negating effects that activate on the field."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Necrovalley_(archetype)",
+    "color": "0x907572"
+  },
+
+  {
+    "name": "Nephthys",
+    "icon": "icon-nephthys",
+    "intro": "Nephthys is an archetype comprised primarily of FIRE Winged Beast and WIND Spellcaster monsters.",
+    "detail": [
+      "This archetype focuses primarily on destroying its controller's cards on the field and/or hand to trigger various effects. Spellcaster Nephthys monsters released in Deck Build Pack: Hidden Summoners have two common effects; the first effect is destroying 1 card in your hand during your Main Phase, in which if you do, triggers the next effect. The second effect is activated during your next Standby Phase after they are destroyed by a card effect and is sent to the GY, which is ranging from searching cards to Special Summoning.\n",
+      "Another playing style is resurrecting themselves from the GY, as being reflected by the ability of a mythological phoenix. The Main Deck Winged-Beast Nephthys monsters all have effects to Special Summon themselves from the GY, and some of them trigger the effects to destroy cards afterwards. This playing style is also supported through Ritual Summoning. Their Link Monsters - Nephthys, the Sacred Flame unlocks its whole abilities if it was Link Summoned by using Ritual Monsters, and Nephthys, the Sacred Preserver could gather required sources for Ritual Summoning."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Nephthys",
+    "color": "0x2B9100"
+  },
+
+  {
+    "name": "Ninja",
+    "icon": "icon-ninja",
+    "intro": "Ninja is an archetype of mostly Warrior monsters, in addition to some Machines (such as some members of the Karakuri and Superheavy Samurai archetypes).",
+    "detail": [
+      "Constructing a Deck based around Ninja monsters is no simple feat, as they don't fight by conventional means; the Spell, Trap and Monster cards of the Ninja archetype revolve around underhanded, control-based strategies rather than all-out attacking or swarming.\n",
+      "\"Underhanded!?\" Haha! Not surprised learning this about Neeen-JAH!"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Ninja",
+    "color": "0xAD0000"
+  },
+
+  {
+    "name": "Odd-Eyes",
+    "icon": "icon-odd-eyes",
+    "intro": "Odd-Eyes is an archetype composed primarily of Level/Rank 7 DARK Dragon monsters with various Attributes (primarily LIGHT and DARK).",
+    "detail": [
+      "The moniker of Odd-Eyes refers to the heterochromia iridum present among the monsters of this archetype, all of which have either a red or yellow right eye and either a green or blue left eye.\n",
+      "The Odd-Eyes, Magician, and Performapal archetypes each have cards that specifically support the others in them and can be used interchangeably to focus on which part of the Odd-Eyes arsenal you wish to use most, as demonstrated with Yuya Sakaki who uses all three archetypes in the Yu-Gi-Oh! ARC-V anime."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Odd-Eyes",
+    "color": "0xFF6A00"
+  },
+
+  {
+    "name": "Ojama",
+    "icon": "icon-ojama",
+    "intro": "Ojama is an archetype of LIGHT Beast monsters.",
+    "detail": [
+      "Ojama-llama-obama-yo-momma"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Ojama",
+    "color": "0x979E80"
+  },
+
+  {
+    "name": "Orcust",
+    "icon": "icon-orcust",
+    "intro": "Orcust is an archetype of DARK Machine monsters. They are related to the World Legacy archetype.",
+    "detail": [
+      "The Main Deck monsters all have effects to banish themselves from the Graveyard to Special Summon other Orcust monsters from various locations, but prevent the player from Special Summoning monsters except DARK monsters for the rest of the turn. The Link Monsters all have diagonally opposing Link Markers, any additional Link Markers are on the Top or Bottom. The Link Monsters each have an immunity effect when linked, and a second effect that must be activated by returning banished Machine monsters to the Deck."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Orcust",
+    "color": "0x57007F"
+  },
+
+  {
+    "name": "Parshath",
+    "icon": "icon-parshath",
+    "intro": "Parshath is an archetype of Fairy monsters, mostly LIGHT.",
+    "detail": [
+      "With the exception of Darknight Parshath, all of its members are LIGHT monsters that focus on inflicting piercing damage and drawing.\n",
+      "The Neo-Parshath Deck uses cards that recover the player's LP to increase the ATK of Neo-Parshath, the Sky Paladin, The Agent of Force - Mars and Ancient Sacred Wyvern.\n",
+      "Parshath includes a support Counter Trap card, Rebirth of Parshath, and because of that, Parshaths can also meld well with Counter Fairies, one of my favorite series or cards."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Parshath",
+    "color": "0x0094FF"
+  },
+
+  {
+    "name": "Performapal",
+    "icon": "icon-performapal",
+    "intro": "Performapal is an archetype primarily designed around circus animals, donning apparel such as top hats and polka dot bow ties.",
+    "detail": [
+      "Performapal monsters possess varied effects giving the archetype a lot of versatility. Many of the weaker monsters possess strong effects that work well when used together. Monsters like Cheermole and Sword Fish can manipulate ATK and DEF permanently in large increments and continue to do so if they can remain on the field while others like Fire Mufflerlion and Spikeagle grant bonuses for attacking by providing a second attack for one of your monsters and piercing damage respectively.\n",
+      "As the first Pendulum Monster archetype, Performapal features a large number of Pendulum Monsters designed to make the most out of the Pendulum Zones.\n",
+      "The archetype is also highly capable at searching and drawing its members out of the Deck through multiple cards.\n",
+      "On its own, the archetype is capable of quickly swarming the field and gain large ATK boosts through their Pendulum Monsters' effects."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Performapal",
+    "color": "0xFF7FB6"
+  },
+
+  {
+    "name": "Photon",
+    "icon": "icon-photon",
+    "intro": "Photon is an archetype of LIGHT monsters. The Photon archetype is intimately related to the Galaxy archetype.",
+    "detail": [
+      "The goal of a Photon Deck is to take control of the field. The archetype features a fantastic variety of Swarm cards, including Accellight, Photon Lead, Twin Photon Lizard and Paladin of Photon Dragon – a ritual monster that can be summoned twice with the same Ritual Spell Card. Besides this, many Photon cards focus on Summoning their ace monster, Galaxy-Eyes Photon Dragon, which is a good example of Photon field control: its self-banishing Quick Effect allows it to evade Traps like Dimensional Prison and bypass other card effects. Another example is Photon Leo, which can shuffle cards in your opponent's hand back into the Deck.\n",
+      "Photon monsters are unique in that they often have effects that play with the \"Rule of 2000\": many of the archetype's low-level monsters feature 2000+ ATK to make them viable sacrifices for Galaxy-Eyes Photon Dragon, while also augmenting their abilities as beaters.\n",
+      "Photon monsters are generally difficult to defeat in battle (most notably Galaxy-Eyes, which can never lose at one-on-one combat due to its effect, if not interrupted). However, the archetype focus most of its effort towards offensive plays, and lacks defensive capacity - featuring little to no protection against hostile card effects."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Photon",
+    "color": "0xB2FFFF"
+  },
+
+  {
+    "name": "Qli",
+    "icon": "icon-qli",
+    "intro": "Qli, fully known as \"Qliphort\", is an archetype of EARTH Machine monsters that are designed to take advantage of the Pendulum Summon mechanic.",
+    "detail": [
+      "Qlis focus on Pendulum Summoning monsters to fuel Tribute Summons, with effects that activate when Tributed or when Summoned by Tributing members of the archetype.\n",
+      "Almost all Qli Pendulum Monsters have 2400/2800 ATK and 1000 DEF.\n",
+      "In addition, the Qli Effect Pendulum Monsters can manipulate the ATK of monsters on the field; those with a Pendulum Scale of 1 boost the ATK of your Qli monsters by 300, while those with a Scale of 9 reduce your opponent's monsters' ATK by 300.\n",
+      "Finally, each Qli Pendulum Monster is a unique combination of a Level from 5 to 8, and a Scale of 1 or 9, with the Level 5 ones being Normal Monsters with Pendulum Effects that provide card advantage for its owner, the Level 6 ones activating effects whenever they are Tributed and serving as spot removal, and the Level 7 and 8 triggering their effects when they are Tribute Summoned. The Level 9 and 10 are not Pendulum Monsters and each of them require 3 Qli monsters to be tributed for their Normal Summon."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Qli",
+    "color": "0x7F92FF"
+  },
+
+  {
+    "name": "Quiz",
+    "icon": "icon-quiz",
+    "intro": "Quiz is an archetype whose cards tend to make the player answer a question or a riddle.",
+    "detail": [
+      "Quiz cards tend to make the player answer a question or a riddle, and apply positive or negative effects based on whether the player is able to answer correctly or not. Although only a few Quiz monsters were revealed so far, their playing style seems to revolve around manipulating those \"quizzes\" so that the opponent can't answer them correctly, thereby locking the opponent's attacks.\n",
+      "While the opponent can't harm the player, the player can keep increasing his own Life Points and damaging the opponent's with the Quiz Action Cards from the Quiz Quest and Quiz Quest - Extra Stage fields."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Quiz",
+    "color": "0xFF00DC"
+  },
+
+  {
+    "name": "Raidraptor",
+    "icon": "icon-raidraptor",
+    "intro": "Raidraptor, is an archetype of DARK Winged Beast monsters.",
+    "detail": [
+      "Much like other Xyz-based archetypes in the game, this deck focused on swarming the field with necessary monsters to perform Xyz Summon.\n",
+      "Their main Xyz Monster, designed for this sole purpose, is Raidraptor - Force Strix, and is the most important Xyz Monster in the deck.\n",
+      "This archetype also heavily supports Rank-Up strategy, due to high number of Rank-Up-Magic Spells associated with the archetype.\n",
+      "Raidraptor - Ultimate Falcon, arguably the archetype's most popular card, is pretty much immune to all effects. Due to this card's difficult Xyz summoning conditions, it is often \"Cheat Summoned\" out with Waking the Dragon."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Raidraptor",
+    "color": "0xE5BF00"
+  },
+
+  {
+    "name": "Relinquished",
+    "icon": "icon-relinquished",
+    "intro": "Relinquished is an archetype of DARK Spellcaster monsters. It contains a single sub-archetype Eyes Restrict.",
+    "detail": [
+      "Similar to Eyes Restrict, monsters in this archetype specialize in \"absorbing\" its opponent's monsters, an underhanded tactic. Use your own damn monsters!"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Relinquished_(archetype)",
+    "color": "0x004A7F"
+  },
+
+  {
+    "name": "Ritual Beast",
+    "icon": "icon-ritual-beast",
+    "intro": "Ritual Beast is an archetype of monsters, whose emphasis of strategy is Contact Fusion by banishing your own Fusion Materials.",
+    "detail": [
+      "This archetype includes the sub-archetypes Ritual Beast Tamer, Spiritual Beast, and Ritual Beast Ulti-.\n",
+      "Each of the Ritual Beast Tamer monsters have effects that helps swarming the Field (with the exception of Ritual Beast Tamer Zefrawendi) in order to initiate Contact Fusion, either by Special Summoning Ritual Beast monsters from Deck, GY or the ones being banished, or even grants an extra Normal Summon.\n",
+      "On the other hand, the Spiritual Beast monsters banish 1 Ritual Beast card from the Hand, Deck, Graveyard, or Extra Deck in order to get rid of problematic opposing cards, search for a card on the long run, give power boosts, or setting up combos, respectively.\n"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Ritual_Beast",
+    "color": "0xFF00DC"
+  },
+
+  {
+    "name": "Rokket",
+    "icon": "icon-rokket",
+    "intro": "Rokket is an archetype of DARK Dragon monsters.",
+    "detail": [
+      "Although at first glance this may not make them viable since it is unlikely your opponent would use their monsters to target them, the Deck allows the player to target them oneself. The Ace Monsters of the archetype Borrel, can target a Monster on the field and apply an effect, and the opponent cannot chain anything to the effect's activation. As such, a common move is to destroy the Rokkets when they are targeted by a Borrel effect, and activate their effects. Using the Rokket monsters in this fashion is analogous to using them as literal cannon fodder."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Rokket",
+    "color": "0x00FF21"
+  },
+
+  {
+    "name": "Shaddoll",
+    "icon": "icon-shaddoll",
+    "intro": "Shaddoll is an archetype comprised primarily of DARK monsters.",
+    "detail": [
+      "Their focus is the Fusion Summon of the more powerful El Shaddoll monsters, which restrict or punish Special Summons. The Main Deck Shaddoll monsters all have Flip Effects that focus on searching and field advantage, as well as secondary effects that focus on regaining advantage whenever they are sent to the Graveyard by a card effect.\n",
+      "For the Shaddoll Effect Monsters activating their Graveyard effects is the quickest way of gaining advantage, especially Shaddoll Beast who is usually the first to be sent off of Shaddoll Fusion or Sinister Shadow Games; with Shaddoll Falco soon to follow. And lastly, Shaddoll Squamata and Shaddoll Hedgehog are best for searching the other two or left be until they are Drawn as the 1st basically acts as any Shaddoll when sent and the second usually searches the other of the first two. A quick but important note on the effect of Squamata is it can be used to send even Shaddoll Spell and Trap cards, this is only important for Shaddoll Core who will recover another Shaddoll Spell or Trap from the Graveyard."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Shaddoll",
+    "color": "0x7F0037"
+  },
+
+  {
+    "name": "Sky Striker",
+    "icon": "icon-sky-striker",
+    "intro": "Sky Striker is an archetype that also includes the sub-archetype Sky Striker Ace",
+    "detail": [
+      "All Sky Striker Spells, with the exception of the Continuous Multirole and Field Area Zero, cannot be activated while you control a Monster in the Main Monster Zones and gain extra effects while you have 3 or more Spell cards in your GY.\n",
+      "These spells have very powerful effects, allowing Sky Strikers to control the board with ease and dispatch any threat on demand. The search-and-draw power of Engage! gives them the ability to repeatedly gain/regain advantage over an opponent and grab any effect needed, responding rapidly to changing Duels in a way few other Decks can match.\n",
+      "Sky Strikers have tried to pull fast ones in the past, and as a result cards like Widwo Anchor and Engage! paying the price."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Sky_Striker",
+    "color": "0x00C96E"
+  },
+
+  {
+    "name": "Synchron",
+    "icon": "icon-synchron",
+    "intro": "Synchron is an archetype of mostly Tuner, mostly machine monsters.",
+    "detail": [
+      "Some Synchron Tuners have a corresponding Warrior Synchro Monster that requires it to be used in the Synchro Summon.\n",
+      "Some later released Synchrons do not have Warrior counterparts, but effects that can change either the battle position of an opponent's monster or the ATK of the Synchro Monster that they summon.\n",
+      "Accel Synchron and Formula Synchron are the only Synchrons to be Tuner Synchro Monsters, while Performapal Odd-Eyes Synchron is the only Synchron to be a Tuner Pendulum Monster.\n",
+      "On a side note, it's a shame that Jet Synchron has been banned. Dammit."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Synchron",
+    "color": "0x7FFFC5"
+  },
+
+  {
+    "name": "Thunder Dragon",
+    "icon": "icon-thunder-dragon",
+    "intro": "Thunder Dragon is an archetype of LIGHT and DARK Thunder monsters.",
+    "detail": [
+      "The archetype aims to provide card advantage and thin the Deck with various discarding and banishing effects. Almost all the Thunder Dragon monsters can discard themselves to activate a particular effect, generally revolving around searching another copy of itself or retrieving Thunder Dragon monsters in the Graveyard or that are banished, and a second effect that triggers when they are banished or sent from the Field to the Graveyard. In addition to this resource-providing mechanic, the Main Deck also contains a more straightforward, aggressive option, Thunder Dragonduo, that can be Special Summoned by banishing 1 LIGHT and 1 DARK monster from the Graveyard, which can be used to trigger the effects of Thunder Dragon monsters, and enable Rank 8 plays for extra control. Also, after destroying a monster by battle, it can search any Thunder monste.\n",
+      "The main bosses of the theme are the Fusions Thunder Dragon Colossus (which is BANNED at the time of this post) and Thunder Dragon Titan."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Thunder_Dragon_(archetype)",
+    "color": "0x007F0E"
+  },
+
+  {
+    "name": "Trap Hole",
+    "icon": "icon-trap-hole",
+    "intro": "Trap Hole is an archetype of Trap Cards having \"Trap Hole\" in their names.",
+    "detail": [
+      "Most Trap Hole cards have effects that destroy 1 or more monsters under certain conditions.\n",
+      "I don't care how many Trap Hole cards you got. They've got nothing on Super Mario. Goodness knows how many holes that dude as fallen into. He's been fallin' down holes for over 30 years!"
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Trap_Hole_(archetype)",
+    "color": "0x7F3300"
+  },
+
+  {
+    "name": "True Draco and True King",
+    "icon": "icon-true-draco",
+    "intro": "True Draco and True King is an archetype of Wyrm, mostly LIGHT monsters.",
+    "detail": [
+      "All of of the True Kings have a non-targeting banishing effect that is applied if the Attributes of both monsters destroyed for its Special Summon match its own Attribute. Additionally, they activate a different effect that triggers if they are destroyed by a card effect, interacting with a Wyrm monster with a different Attribute from its own.\n",
+      "Their boss monster is True King of All Calamities, a controversial monster. Some people want this mutherfucker banned, while other love locking their opponents outta making plays.\n",
+      "The True Draco revolve around Tribute Summons and can be Tribute Summoned by Tributing a Continuous Spell or Trap Card. Their effects provide further support to the True Draco and True King monsters, either by searching for resources or protecting other monsters.\n",
+      "One of its boss monsters is Master Peace, the True Dracoslaying King, which is banned at this time."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/True_Draco_and_True_King",
+    "color": "0x5E4242"
+  },
+
+  {
+    "name": "U.A.",
+    "icon": "icon-u-a",
+    "intro": "U.A., short for \"Ultra Athletes\", is an archetype of EARTH Warrior monsters.",
+    "detail": [
+      "The archetype is based on positions played in various popular team sports, with every set including monsters hailing from a different sport.\n",
+      "The basic strategy is to Normal Summon U.A. Midfielder each turn, allowing you to add U.A. monsters to your hand via the effect of U.A. Stadium.\n",
+      "All U.A. monsters share the same effect of Special Summon themselves by returning a different U.A. monster from the field to the hand. The Field Spell U.A. Stadium can search an U.A. monster when another one is Normal Summoned, and gives a permanent ATK boost of 500 to all your monsters (not limited to U.A. monsters) when you Special Summon an U.A. monster for the first time during any turn, once per turn."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/U.A.",
+    "color": "0xFFB832"
+  },
+
+  {
+    "name": "Unchained",
+    "icon": "icon-unchained",
+    "intro": "Unchained is an archetype of Fiend monsters.",
+    "detail": [
+      "The archetype focuses on breaking their opponent's board, albeit through a limited number of ways. It heavily relies on interaction during the enemy's turn, in order to disrupt plays through utilizing their opponent's own Monster cards for its main gimmick, which is climbing a set of Link Monsters from -2 to -4.\n",
+      "Their main strategy revolves around destroying their own cards with the ultimate goal to summon Unchained Soul of Disaster, as the core gameplay condition.\n",
+      "Unchained Soul is a sub-archetype which focuses on Link Summoning using the opponent's monsters, as its main strategy. This allows them to climb into its powerful Link -4 monster, Unchained Abomination, while having preserved its own resources and simultaneously clearing the enemy's board bit by bit."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Unchained",
+    "color": "0xFF006E"
+  },
+
+  {
+    "name": "Utopia",
+    "icon": "icon-utopia",
+    "intro": "Utopia is an archetype associated with the Number archetype. It is a sub-archetype of the Utopic archetype.",
+    "detail": [
+      "Most Utopia monsters the monsters have effects which either increase their own ATK or deal with the ATK of the opponent's monsters.\n",
+      "A Utopia Deck usually focuses on Xyz Summoning Utopia monsters (duh). The base form negates attacks, and the Number C39, Rank-Down, and Rank-Up versions focus on gaining ATK and draining opposing monsters' ATK."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Utopia_(archetype)",
+    "color": "0x808080"
+  },
+
+  {
+    "name": "Vehicroid",
+    "icon": "icon-vehicroid",
+    "intro": "Vehicroid is an archetype of EARTH Machine Fusion Monsters.",
+    "detail": [
+      "A pretty weak archetyp, IMO. I mean hell, the support card, Vehicroid Connection Zone, is better than the damn so-called boss fusion monsters themselves."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Vehicroid",
+    "color": "0xBB3DFF"
+  },
+
+  {
+    "name": "Virtual World",
+    "icon": "icon-virtual-world",
+    "intro": "Virtual World is an archetype of EARTH Wyrm and WIND Psychic monsters.",
+    "detail": [
+      "Virtual World has a focus on banishing and Special Summoning from the hand while sending cards from the deck to the graveyard. Interestingly, all members of the archetype have Levels/Ranks consisting of multiples of 3, ranging from said number to 9. Most of the Main Deck members all have the shared effect, Summoning themselves from the hand.\n",
+      "This is then followed up by an additional effect upon being Special Summoned, allowing them to easily swarm the field as well as get cards into the GY early on. This also easily sets up their Synchro Monster and Xyz Monster plays."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Virtual_World",
+    "color": "0xFF54E8"
+  },
+
+  {
+    "name": "Vylon",
+    "icon": "icon-vylon",
+    "intro": "Vylon is an archetype that focuses around the use of Equip Cards.",
+    "detail": [
+      "All Vylon Equip Spell Cards can only be equipped to a Vylon Monster and have a secondary effect that allows the player to search for another Vylon Spell Card when they are sent from the field to the graveyard while face up. This is perhaps their greatest asset, as it allows Vylon decks to keep their card advantage from their Spells as long as there are other Vylon Spells in the deck.\n",
+      "The Vylon strategy revolves around the use of Equip Cards, their effects often only working when they have at least one equipped. Their Equip Spell Cards can search out other Vylon Spells from the deck when they are sent to the Graveyard from the field, and most of their Tuner and Union monsters can become Equip Cards. Their Equip Spells activate even when the monsters they are equipped to are destroyed or used as Synchro Material, letting their users gather the right tools for the situation at hand at any time, though they should always be aware of the number of Spell and Trap Card Zones they have left to work with. One should try to keep at least 1 Spell or Trap Card Zone open so that they can respond should the duel's situation suddenly change.\n",
+      "Vylon Sigma OTK focuses on Synchro Summoning Vylon Sigma, then maxing out its ATK with multiple Mage Power and attacking twice with Twin Swords of Flashing Light - Tryce for massive battle damage as soon as possible."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Vylon",
+    "color": "0xECE278"
+  },
+
+  {
+    "name": "Warrior",
+    "icon": "icon-warrior",
+    "intro": "Warrior is an archetype of primarily Spellcaster monsters... Hah! Kidding. It's really Warrior monsters.",
+    "detail": [
+      "The non-Synchro Warriors work in conjunction with the Synchrons to easily Synchro Summon Synchro Monsters, including the Warrior Synchro Monsters.\n",
+      "Each Warrior that requires a Synchron has the same Attribute as its counterpart, but follows its own distinctive color scheme."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Warrior_(archetype)",
+    "color": "0xFF0000"
+  },
+
+  {
+    "name": "World Chalice",
+    "icon": "icon-world-chalice",
+    "intro": "World Chalice is an archetype related to, and is supported by, the World Legacy archetype.",
+    "detail": [
+      "The main World Chalice monsters seem to be based on character archetypes, seemingly evolving into stronger, armored Link Monsters—possibly due to the World Legacy items unlocked by them per the request of Lee the World Chalice Fairy, as mentioned in the flavor text of Chosen by the World Chalice, to fight against the Krawler monsters.\n",
+      "As more sets progressed, each Main Deck member of the this archetype would indirectly be placed onto another archetype, supporting other related archetypes of the World Legacy archetype itself."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/World_Chalice",
+    "color": "0x007F7F"
+  },
+
+  {
+    "name": "World Legacy",
+    "icon": "icon-world-legacy",
+    "intro": "World Legacy is an archetype that supports several other archetypes.",
+    "detail": [
+      "It is related to, as well as supports, the World Chalice, Krawler, Mekk-Knight, Knightmare, Crusadia, and Orcust archetypes, as well as the Guardragon series. All of this archetype's members are DARK Machine monsters, except for the WIND Dragon World Legacy Guardragon Mardark.\n",
+      "Each World Legacy monster has an effects that responds/activates to monsters summoned from the Extra Deck and an additional effect that either directly or indirectly supports their related archetypes."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/World_Legacy",
+    "color": "0x00137F"
+  },
+
+  {
+    "name": "X-Saber",
+    "icon": "icon-x-saber",
+    "intro": "X-Saber is an archetype of EARTH monsters whose Types are mainly Beast-Warrior and Warrior.",
+    "detail": [
+      "While in the past they have been associated with hand control, and to a limited degree still are, the archetype is now more focused around Summoning many monsters in very short periods of time with powerful cards.\n",
+      "The archetype is largely known for its mass Synchro Summoning capabilities, with the ability to summon powerful Synchro Monsters at rapid ease."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/X-Saber",
+    "color": "0xFFD800"
+  },
+
+  {
+    "name": "Xyz",
+    "icon": "icon-xyz",
+    "intro": "Xyz is an archetype that supports Xyz Monsters.",
+    "detail": [
+      "Most Xyz cards have effects that either increase the ATK and DEF of the Xyz Monster, benefit the player if they control an Xyz Monster or can transform themselves into Xyz Materials for your Xyz Monsters. Most of these effects are only active if a Xyz Monster is on the field. The only support for the archetype, Generation Force, can only be activated if the player controls a Xyz Monster. They have two sub-archetype of Monster Cards: CXyz and Xyz Dragon."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Xyz",
+    "color": "0x57007F"
+  },
+
+  {
+    "name": "Xyz Dragon",
+    "icon": "icon-xyz-dragon",
+    "intro": "Xyz Dragon is an archetype of DARK monsters.",
+    "detail": [
+      "It is a sub-archetype of the Xyz archetype, and it is made up by 3 Dragon Xyz Monsters (Dark Rebellion and its evolutions Dark Requiem and Arc Rebellion) and 1 Spellcaster Pendulum Monster (Black Fang Magician, which carries a condition to make it a member despite its name).\n",
+      "Xyz Dragon monsters have effects that lower the ATK of opponent's monsters, with the Xyz Monsters also gaining the lost amount."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Xyz_Dragon",
+    "color": "0x7F0000"
+  },
+
+  {
+    "name": "Yang Zing",
+    "icon": "icon-yang-zing",
+    "intro": "Yang Zing is an archetype resembling Dragon-like creatures, but with a slight appearance of Beasts. All of them are Wyrm with various Attributes.",
+    "detail": [
+      "Almost all of the Main Deck monsters focus on maintaining field presence by Special Summoning one another when they are destroyed. In addition, the non-Tuner, non-Zefra monsters are capable of Synchro Summoning during the opponent's Main Phase or Battle Phase, and give bonuses to the Synchro Monster that they were used to Summon.\n",
+      "The Tuner Main Deck monsters of the archetype, have effects that tend to speed-up Synchro Summons.\n",
+      "Despite being a Synchro-reliant Deck, the Yang Zing also has 2 Pendulum Monsters, allowing many Yang Zing monsters to be Special Summoned at once."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Yang_Zing",
+    "color": "0xFF6A00"
+  },
+
+  {
+    "name": "Yomi",
+    "icon": "icon-yomi",
+    "intro": "Yomi monsters are small fiendish creatures wearing hooded cloaks. Each of them holds a different item, based on their \"post\".",
+    "detail": [
+      "The \"regular\" Yomi monsters consist of locking the opponent's attacks by constantly Special Summoning and destroying themselves, inflicting damage to the opponent each time they do so. Once the player has gathered enough Yomi monsters in the Graveyard, their ace monster, Abyss Ruler Mictlancoatl, can be Summoned. It ignores the lockdown and focuses solely on a straightforward offensive strategy; even though it only inflicts 600 damage as opposed to the other Yomi monsters' 800, its can destroy the opponent's cards instead of the player's own, and posseses massive ATK and DEF."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Yomi",
+    "color": "0x007F46"
+  },
+
+  {
+    "name": "Yubel",
+    "icon": "icon-yubel",
+    "intro": "Yubel is a series of DARK Fiend monsters with 0 ATK and DEF.",
+    "detail": [
+      "When a Yubel monster is destroyed, the next evolution can be Special Summoned and the player does not take any Battle Damage. When a face-up Attack Position Yubel monster is attacked by an opponent's monster, before damage calculation, they take damage equal to that monster's ATK.\n",
+      "The Yubel Deck revolves around destroying Yubel to activate its effect and Summon Yubel - Terror Incarnate to stall the field, and/or inflict damage each turn using other monsters.\n",
+      "The Yubel deck revolves around pain and suffering."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Yubel_(archetype)",
+    "color": "0x663B49"
+  },
+
+  {
+    "name": "Zefra",
+    "icon": "icon-zefra",
+    "intro": "Zefra is an archetype consisting of Pendulum Monsters.",
+    "detail": [
+      "Zefra primarily focuses on Pendulum Summons. Also, all the members of the archetype are Pendulum monsters, while gaining advantage with Oracle of Zefra and Chosen of Zefra.\n",
+      "Zefra Decks are encouraged - through the effects of Oracle as well as the effects of the individual members - to incorporate Synchro, Xyz, Fusion and even Ritual Summons into the Deck, enabling an astounding degree of potential variety.\n",
+      "Zefra even has the ability to summon Sophia, Goddess of Rebirth, one of the most difficult monsters in the game to summon (This is fitting, as the Zefra are supposedly the chosen warriors of Sophia)."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Zefra",
+    "color": "0xC0EDC0"
+  },
+
+  {
+    "name": "Zoodiac",
+    "icon": "icon-zoodiac",
+    "intro": "Zoodiac is an archetype of Level/Rank 4 EARTH Beast-Warrior monsters.",
+    "detail": [
+      "The archetype's Main Deck monsters grants additional effect for any Beast-Warrior Xyz Monster they're attached to, ranging from protection against targeting effects, piercing battle damage, banishing opposing monster they battled, or even Summoning more monsters from the Deck.\n",
+      "The biggest strength of this archetype is their capability of starting their sequences of play with just one card (any of their monster).\n",
+      "The Xyz Monsters of the archetype, meanwhile, all possess variable (?) ATK/DEF, stemming from the total sum of the ATK/DEF of the Zoodiac monsters attached to them. Furthermore, each Xyz Monster can be Xyz Summoned once every turn by using 1 Zoodiac monster as Material (as long their names are different). Their Material requirements are generic, which means they can be used in other decks as well.\n",
+      "Because of their compact size, they can be included in several other decks (mainly just Ratpier and Whiptail in Main Deck, while at least Broadbull and Drident in Extra Deck).\n",
+      "Though some of these cards are currently Limited or BANNED, taking the punch out of Zoodiac. Tsk, tsk, tsk..."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Zoodiac",
+    "color": "0xA17FFF"
+  },
+
+  {
+    "name": "Zubaba",
+    "icon": "icon-zubaba",
+    "intro": "Zubaba is an archetype of EARTH Warrior monsters.",
+    "detail": [
+      "Two out of three of this archetype's Main Deck members are Level 3, while its only Extra Deck member is Rank 4. The third member of this archetype, Zubababancho Gagagacoat (which has been added to the game more recently), is also a Gagaga monster."
+    ],
+    "source": "https://yugioh.fandom.com/wiki/Zubaba",
+    "color": "0x7F6A00"
+  }
+]

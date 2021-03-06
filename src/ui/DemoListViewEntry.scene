@@ -1,0 +1,68 @@
+{
+    "id": "e13ee986-7853-44c0-8616-6139e2753f9a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 2,
+        "superClassName": "ListViewEntry",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 216,
+        "borderHeight": 56
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3ed615ba-cd41-4ace-b8fb-7021dbc134b4",
+            "label": "container",
+            "components": [
+                "ListViewEntryComponent"
+            ],
+            "ListViewEntryComponent.backNormColor": "-1",
+            "ListViewEntryComponent.backOverColor": "0xFF0020FF",
+            "ListViewEntryComponent.backDownColor": "0xFF0010CF",
+            "ListViewEntryComponent.labelOverColor": "0xFFFFFF00",
+            "ListViewEntryComponent.backSelectedNormColor": "0xFF008000",
+            "ListViewEntryComponent.backSelectedOverColor": "0xFF00BF000",
+            "ListViewEntryComponent.backSelectedDownColor": "0xFF004000",
+            "ListViewEntryComponent.labelSelectedOverColor": "0xFFFFFF00",
+            "x": -3,
+            "list": [
+                {
+                    "type": "BitmapText",
+                    "id": "9f4637f2-bee9-4c48-968e-8303fde3ecac",
+                    "label": "txtLabel",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": 48,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "label",
+                    "font": "falco-black",
+                    "fontSize": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "6809c3ea-4f7b-4a6e-b231-7b32be73a095",
+                    "label": "iconImage",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "radio-off-norm"
+                    },
+                    "x": 22,
+                    "y": 20
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

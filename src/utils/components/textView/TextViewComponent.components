@@ -1,0 +1,64 @@
+{
+    "components": [
+        {
+            "name": "TextViewComponent",
+            "baseClass": "BaseContentScrollerComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "_textObjectName",
+                    "label": "Text Object Name",
+                    "tooltip": "The variable name of the Text or BitmapText.",
+                    "defValue": "textField",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "_hzSliderName",
+                    "label": "Horizontal Slider Name",
+                    "tooltip": "The variable name of horizontal slider.",
+                    "defValue": "hzSlider",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "_vtSliderName",
+                    "label": "Vertical Slider Name",
+                    "tooltip": "The variable name of vertical slider.",
+                    "defValue": "vtSlider",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "_rectShapeName",
+                    "label": "Rectangle Shape Name",
+                    "tooltip": "the variable name of the rectangle shape that represents the visible area of the text object.",
+                    "defValue": "rect",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "isEnabledDefault",
+                    "label": "Is Enabled?",
+                    "tooltip": "Determines if the text view can be scrolled by user input default (true).",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

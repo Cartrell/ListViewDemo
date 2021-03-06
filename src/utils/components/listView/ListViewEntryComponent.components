@@ -1,0 +1,139 @@
+{
+    "components": [
+        {
+            "name": "ListViewEntryComponent",
+            "baseClass": "BaseComponent",
+            "gameObjectType": "ListViewEntry",
+            "properties": [
+                {
+                    "name": "backNormColor",
+                    "label": "Back Normal Color",
+                    "tooltip": "Color of the back when entry is in the norm state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "backOverColor",
+                    "label": "Back Over Color",
+                    "tooltip": "Color of the back when entry is in the over state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "backDownColor",
+                    "label": "Back Down Color",
+                    "tooltip": "Color of the back when entry is in the down state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelNormColor",
+                    "label": "Label Norm Color",
+                    "tooltip": "Color of the label when in the norm state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelOverColor",
+                    "label": "Label Over Color",
+                    "tooltip": "Color of the label when in the over state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelDownColor",
+                    "label": "Label Down Color",
+                    "tooltip": "Color of the label when in the down state.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "backSelectedNormColor",
+                    "label": "Back Selected Normal Color",
+                    "tooltip": "Color of the back when entry is in the norm state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "backSelectedOverColor",
+                    "label": "Back Selected Over Color",
+                    "tooltip": "Color of the back when entry is in the over state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "backSelectedDownColor",
+                    "label": "Back Selected Down Color",
+                    "tooltip": "Color of the back when entry is in the down state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelSelectedNormColor",
+                    "label": "Label Selected Norm Color",
+                    "tooltip": "Color of the label when in the norm state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelSelectedOverColor",
+                    "label": "Label Selected Over Color",
+                    "tooltip": "Color of the label when in the over state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                },
+                {
+                    "name": "labelSelectedDownColor",
+                    "label": "Label Selected Down Color",
+                    "tooltip": "Color of the label when in the down state while selected.",
+                    "defValue": "-1",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "listViewEntryColor"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

@@ -1,0 +1,183 @@
+{
+    "components": [
+        {
+            "name": "CheckboxComponent",
+            "baseClass": "BaseButtonComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "normOnFrame",
+                    "label": "Norm On Frame",
+                    "tooltip": "Image frame used when the checkbox is in its normal (up) and on state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "overOnFrame",
+                    "label": "Over On Frame",
+                    "tooltip": "Image frame used when the active pointer is over this checkbox while in the on state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "downOnFrame",
+                    "label": "Down On Frame",
+                    "tooltip": "Image frame used when the active pointer is down while this checkbox is in the on state. Must first have been over this checkbox.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "normOffFrame",
+                    "label": "Norm Off Frame",
+                    "tooltip": "Image frame used when the checkbox is in its normal (up) and off state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "overOffFrame",
+                    "label": "Over Off Frame",
+                    "tooltip": "Image frame used when the active pointer is over this checkbox while in the off state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "downOffFrame",
+                    "label": "Down Off Frame",
+                    "tooltip": "Image frame used when the active pointer is down while this checkbox is in the off state. Must first have been over this checkbox.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "chkCallback",
+                    "label": "Callback Function",
+                    "tooltip": "Function to be called when this button is pressed by the active pointer. The function signature is `(CheckboxComponent): void`.",
+                    "defValue": "",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "checkboxComponentCallback"
+                    }
+                },
+                {
+                    "name": "context",
+                    "label": "Callback Context",
+                    "tooltip": "Context (this) to be used when calling the callback function.",
+                    "defValue": "this.scene",
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "eventName",
+                    "label": "Event Name",
+                    "tooltip": "Name of event that is dispatched by the scene's event emitter when this checkbox is pressed.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "disabledOnFrame",
+                    "label": "Disabled On Frame",
+                    "tooltip": "Image frame used when the checkbox is disabled while in its on state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "disabledOffFrame",
+                    "label": "Disabled Off Frame",
+                    "tooltip": "Image frame used when the checkbox is disabled while in its off state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "texture-config"
+                    }
+                },
+                {
+                    "name": "defaultEnabled",
+                    "label": "Enabled",
+                    "tooltip": "Determines if the checkbox is enabled by default.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "defaultIsOn",
+                    "label": "On State",
+                    "tooltip": "Determines if the checkbox is in its on state by default.",
+                    "defValue": true,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "groupName",
+                    "label": "Group Name",
+                    "tooltip": "Name of the group that this checkbox belongs to. Checkboxes in the same group can be controlled using visibility and enability.",
+                    "defValue": "",
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "isRadioButton",
+                    "label": "Is Radio Button",
+                    "tooltip": "Determines if the checkbox acts like a radio button.",
+                    "defValue": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "maxSelectedInGroup",
+                    "label": "Max Selected In Group",
+                    "tooltip": "The maximum number of check boxes that can be selected in a group. Specify -1 (default) to have no limit.",
+                    "defValue": -1,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "_pressedSoundKey",
+                    "label": "Pressed Sound Key",
+                    "tooltip": "Key of the sound that should play when the button is pressed.",
+                    "defValue": "",
+                    "type": {
+                        "id": "audio-key"
+                    }
+                },
+                {
+                    "name": "_downSoundKey",
+                    "label": "Down Sound Key",
+                    "tooltip": "Key of the sound that should play when the button is first put in the down state.",
+                    "defValue": "",
+                    "type": {
+                        "id": "audio-key"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "insertSpaces": true,
+    "tabSize": 2
+}

@@ -1,0 +1,1 @@
+"C:\zx\bins\PhaserEditor2D\PhaserEditor2D.exe" -ws C:\zx\tech\projects\html5\phaserEditorWorkspace3\ -browser-command "'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe' '-app=http://127.0.0.1:1959/editor'"

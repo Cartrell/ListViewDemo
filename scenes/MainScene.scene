@@ -1,0 +1,296 @@
+{
+    "id": "03f4de61-aafd-4074-a194-ef445ef733bd",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 2,
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "MainScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "46f5adc2-b7ee-4504-aef6-888c9c7a0f4e",
+            "label": "background",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "preloader",
+                "frame": "background"
+            },
+            "scaleX": 1.28,
+            "scaleY": 1.28,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "02d62918-ed90-4e94-bbbd-687d2151a4ca",
+            "label": "introTextArea",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "main",
+                "frame": "node"
+            },
+            "x": 400,
+            "y": 140,
+            "scaleX": 12,
+            "scaleY": 9.5,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "BitmapText",
+            "id": "8ff5e84a-34fa-4f02-8818-14105929f362",
+            "label": "txtItemIntro",
+            "scope": "CLASS",
+            "components": [],
+            "x": 400,
+            "y": 140,
+            "originX": 0,
+            "originY": 0,
+            "tintTopLeft": "#ff0",
+            "tintTopRight": "#ff0",
+            "tintBottomLeft": "#ff0",
+            "tintBottomRight": "#ff0",
+            "text": "[intro]",
+            "font": "OpenSansBold",
+            "fontSize": 28
+        },
+        {
+            "type": "BitmapText",
+            "id": "3ae1ce9c-f390-44ba-8179-ad90b532ef84",
+            "label": "txtItemName",
+            "scope": "CLASS",
+            "components": [],
+            "x": 400,
+            "y": 100,
+            "originX": 0,
+            "originY": 0,
+            "tintTopLeft": "#0ff",
+            "tintTopRight": "#0ff",
+            "tintBottomLeft": "#0ff",
+            "tintBottomRight": "#0ff",
+            "text": "[item name]",
+            "font": "OpenSansBold",
+            "fontSize": 28
+        },
+        {
+            "type": "BitmapText",
+            "id": "6d411f7c-e411-41d2-b63d-0c2d86b4e22b",
+            "label": "txtHeader",
+            "components": [],
+            "x": 512,
+            "y": 20,
+            "originY": 0,
+            "text": "list view demo",
+            "font": "falco-black",
+            "fontSize": 42
+        },
+        {
+            "type": "Image",
+            "id": "631b0430-b846-4bca-b3b4-319630309ee6",
+            "label": "remove_button_image",
+            "scope": "CLASS",
+            "components": [
+                "ButtonComponent"
+            ],
+            "ButtonComponent.normFrame": "{\"key\":\"main\",\"frame\":\"remove-button-norm\"}",
+            "ButtonComponent.overFrame": "{\"key\":\"main\",\"frame\":\"remove-button-over\"}",
+            "ButtonComponent.downFrame": "{\"key\":\"main\",\"frame\":\"remove-button-down\"}",
+            "ButtonComponent.callback": "this.onRemovePressed",
+            "ButtonComponent.context": "this",
+            "ButtonComponent.disabledFrame": "{\"key\":\"main\",\"frame\":\"remove-button-disabled\"}",
+            "texture": {
+                "key": "main",
+                "frame": "remove-button-norm"
+            },
+            "x": 380,
+            "y": 680
+        },
+        {
+            "type": "Image",
+            "id": "8a8c91f7-afaa-4fd6-8669-51ffc8fedb27",
+            "label": "add_button_image",
+            "scope": "CLASS",
+            "components": [
+                "ButtonComponent"
+            ],
+            "ButtonComponent.normFrame": "{\"key\":\"main\",\"frame\":\"add-button-norm\"}",
+            "ButtonComponent.overFrame": "{\"key\":\"main\",\"frame\":\"add-button-over\"}",
+            "ButtonComponent.downFrame": "{\"key\":\"main\",\"frame\":\"add-button-down\"}",
+            "ButtonComponent.callback": "this.onAddPressed",
+            "ButtonComponent.context": "this",
+            "ButtonComponent.disabledFrame": "{\"key\":\"main\",\"frame\":\"add-button-disabled\"}",
+            "texture": {
+                "key": "main",
+                "frame": "add-button-norm"
+            },
+            "x": 150,
+            "y": 680
+        },
+        {
+            "type": "Image",
+            "id": "39b40744-d82c-4468-b865-11a1971e0680",
+            "label": "select_all_button_image",
+            "scope": "CLASS",
+            "components": [
+                "ButtonComponent"
+            ],
+            "ButtonComponent.normFrame": "{\"key\":\"main\",\"frame\":\"select-all-button-norm\"}",
+            "ButtonComponent.overFrame": "{\"key\":\"main\",\"frame\":\"select-all-button-over\"}",
+            "ButtonComponent.downFrame": "{\"key\":\"main\",\"frame\":\"select-all-button-down\"}",
+            "ButtonComponent.callback": "this.onSelectAllPressed",
+            "ButtonComponent.context": "this",
+            "ButtonComponent.disabledFrame": "{\"key\":\"main\",\"frame\":\"select-all-button-disabled\"}",
+            "texture": {
+                "key": "main",
+                "frame": "select-all-button-norm"
+            },
+            "x": 610,
+            "y": 680
+        },
+        {
+            "type": "Image",
+            "id": "9647dddc-e00e-4cb1-bd2d-20d914ce4fd2",
+            "label": "select_none_button_image",
+            "scope": "CLASS",
+            "components": [
+                "ButtonComponent"
+            ],
+            "ButtonComponent.normFrame": "{\"key\":\"main\",\"frame\":\"select-none-button-norm\"}",
+            "ButtonComponent.overFrame": "{\"key\":\"main\",\"frame\":\"select-none-button-over\"}",
+            "ButtonComponent.downFrame": "{\"key\":\"main\",\"frame\":\"select-none-button-down\"}",
+            "ButtonComponent.callback": "this.onSelectNonePressed",
+            "ButtonComponent.context": "this",
+            "ButtonComponent.disabledFrame": "{\"key\":\"main\",\"frame\":\"select-none-button-disabled\"}",
+            "texture": {
+                "key": "main",
+                "frame": "select-none-button-norm"
+            },
+            "x": 840,
+            "y": 680
+        },
+        {
+            "type": "Image",
+            "id": "e540b928-c520-4784-a211-294ed6110f56",
+            "label": "cbx_allow_multiple_selection",
+            "scope": "CLASS",
+            "components": [
+                "CheckboxComponent"
+            ],
+            "CheckboxComponent.normOnFrame": "{\"key\":\"main\",\"frame\":\"checkbox-on-norm\"}",
+            "CheckboxComponent.overOnFrame": "{\"key\":\"main\",\"frame\":\"checkbox-on-over\"}",
+            "CheckboxComponent.downOnFrame": "{\"key\":\"main\",\"frame\":\"checkbox-on-down\"}",
+            "CheckboxComponent.normOffFrame": "{\"key\":\"main\",\"frame\":\"checkbox-off-norm\"}",
+            "CheckboxComponent.overOffFrame": "{\"key\":\"main\",\"frame\":\"checkbox-off-over\"}",
+            "CheckboxComponent.downOffFrame": "{\"key\":\"main\",\"frame\":\"checkbox-off-down\"}",
+            "CheckboxComponent.chkCallback": "this.onChkAllowMultipleSelectionsPressed",
+            "CheckboxComponent.disabledOnFrame": "{\"key\":\"main\",\"frame\":\"checkbox-on-disabled\"}",
+            "CheckboxComponent.disabledOffFrame": "{\"key\":\"main\",\"frame\":\"checkbox-off-disabled\"}",
+            "CheckboxComponent.defaultIsOn": false,
+            "texture": {
+                "key": "main",
+                "frame": "checkbox-off-norm"
+            },
+            "x": 320,
+            "y": 738
+        },
+        {
+            "type": "BitmapText",
+            "id": "2c1e153a-01c2-4486-8147-8e0c44023857",
+            "label": "bmpTxtAllowMultipleSelection",
+            "components": [],
+            "x": 350,
+            "y": 723,
+            "originX": 0,
+            "originY": 0,
+            "text": "allow multiple selections",
+            "font": "falco-black",
+            "fontSize": 28
+        },
+        {
+            "type": "Container",
+            "id": "bdffb8c7-34ac-43c6-b0fa-efcb09e830ed",
+            "label": "listViewContainer",
+            "scope": "CLASS",
+            "components": [
+                "ListViewComponent"
+            ],
+            "ListViewComponent._listEntryClass": "DemoListViewEntry",
+            "x": 20,
+            "y": 80,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "08d044bc-28b9-46b9-b2b2-bea516baf4b1",
+                    "label": "panel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "list-view-panel"
+                    },
+                    "scaleY": 1.4,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Container",
+                    "id": "2502107b-19f7-428a-9ac4-1989ccdee518",
+                    "label": "vtSlider",
+                    "scope": "CLASS",
+                    "components": [
+                        "SliderComponent"
+                    ],
+                    "SliderComponent._isHorizontal": false,
+                    "SliderComponent._bodyImage": "{\"key\":\"main\",\"frame\":\"button_slider_body_vt_body\"}",
+                    "SliderComponent._handleNormImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_norm\"}",
+                    "SliderComponent._handleOverImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_over\"}",
+                    "SliderComponent._handleDownImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_down\"}",
+                    "SliderComponent._handleDisabledImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_disabled\"}",
+                    "SliderComponent.isVisibleDefault": false,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "4ce088f4-6c47-494b-85d0-3bf1f124ed96",
+                    "label": "hzSlider",
+                    "scope": "CLASS",
+                    "components": [
+                        "SliderComponent"
+                    ],
+                    "SliderComponent._bodyImage": "{\"key\":\"main\",\"frame\":\"list_slider_body_hz_body\"}",
+                    "SliderComponent._handleNormImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_hz_norm\"}",
+                    "SliderComponent._handleOverImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_hz_over\"}",
+                    "SliderComponent._handleDownImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_hz_down\"}",
+                    "SliderComponent._handleDisabledImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_hz_disabled\"}",
+                    "SliderComponent.isVisibleDefault": false,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "lists": [
+        {
+            "id": "ddb94674-4a5d-4cee-ad70-e03d03aa20f9",
+            "label": "soundableButtonImages",
+            "objectIds": [
+                "631b0430-b846-4bca-b3b4-319630309ee6",
+                "8a8c91f7-afaa-4fd6-8669-51ffc8fedb27",
+                "e540b928-c520-4784-a211-294ed6110f56"
+            ]
+        }
+    ]
+}

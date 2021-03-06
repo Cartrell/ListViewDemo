@@ -1,0 +1,64 @@
+{
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  
+  "env": {
+    "browser": true
+  },
+
+  "plugins": [
+    "@typescript-eslint"
+  ],  
+
+  "ignorePatterns": [
+    "build/*.js"
+  ],
+
+  "rules": {
+    "indent": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "mjs": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+
+    "max-len": "off",
+    "no-console": "off",
+    "no-continue": "off",
+    "no-param-reassign": "off",
+    "no-trailing-spaces": "off",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    
+    "@typescript-eslint/indent": [ "error", 2],
+    "@typescript-eslint/no-namespace": "off"
+  },
+
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "./WebContent/assets/scenes/"]
+      }
+    }
+  },
+
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
+}

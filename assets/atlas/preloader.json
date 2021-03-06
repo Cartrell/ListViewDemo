@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "background",
+	"frame": {"x":1,"y":1,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600}
+},
+{
+	"filename": "preloader_bar",
+	"frame": {"x":1,"y":603,"w":254,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":64},
+	"sourceSize": {"w":254,"h":64}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "preloader.png",
+	"format": "RGBA8888",
+	"size": {"w":802,"h":668},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3858be03ae09bab549a99f0a6d1a8c41:da180e32c77954cfa9c0583eb0ff43fa:b6cdaa10a06bef6f46bf15cd0aaf732b$"
+}
+}

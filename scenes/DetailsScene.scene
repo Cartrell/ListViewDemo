@@ -1,0 +1,164 @@
+{
+    "id": "0a1ceb91-352d-446d-87e9-1ac7818ec20c",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 2,
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "DetailsScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10f3d3d9-3ace-443b-9a5f-245a42132b68",
+            "label": "background",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "preloader",
+                "frame": "background"
+            },
+            "scaleX": 1.28,
+            "scaleY": 1.28,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "52b3804a-8cdf-4837-bff5-fb71e3297e95",
+            "label": "icon_ph",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "main",
+                "frame": "node"
+            },
+            "x": 860,
+            "y": 150,
+            "scaleX": 6,
+            "scaleY": 6,
+            "originY": 0
+        },
+        {
+            "type": "BitmapText",
+            "id": "59784ce3-44ea-4f90-93b9-bdd02a575596",
+            "label": "txtHeader",
+            "scope": "CLASS",
+            "components": [],
+            "x": 512,
+            "y": 50,
+            "originY": 0,
+            "tintTopLeft": "#0ff",
+            "tintTopRight": "#0ff",
+            "tintBottomLeft": "#0ff",
+            "tintBottomRight": "#0ff",
+            "text": "[header]",
+            "font": "falco-black",
+            "fontSize": 32
+        },
+        {
+            "type": "BitmapText",
+            "id": "3793f56c-2103-4619-8473-c6d04a57c443",
+            "label": "txtImageSource",
+            "scope": "CLASS",
+            "components": [],
+            "x": 710,
+            "y": 105,
+            "originX": 0,
+            "originY": 0,
+            "text": "Press to view image source (Opens a new browser window.)",
+            "font": "OpenSansBold",
+            "fontSize": 16
+        },
+        {
+            "type": "Container",
+            "id": "2635aa71-8f8e-4c70-97e8-512fba146d1e",
+            "label": "detailsTextContainer",
+            "scope": "CLASS",
+            "components": [
+                "TextViewComponent"
+            ],
+            "TextViewComponent._hzSliderName": "",
+            "x": 28,
+            "y": 100,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9b9bde23-fa44-4da0-83d8-e099c73677b6",
+                    "label": "rect",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "node"
+                    },
+                    "scaleX": 13,
+                    "scaleY": 11,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Container",
+                    "id": "1f42caf4-13bf-4e28-a663-ed4ad6174fb6",
+                    "label": "vtSlider",
+                    "scope": "CLASS",
+                    "components": [
+                        "SliderComponent"
+                    ],
+                    "SliderComponent._isHorizontal": false,
+                    "SliderComponent._bodyImage": "{\"key\":\"main\",\"frame\":\"button_slider_body_vt_body\"}",
+                    "SliderComponent._handleNormImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_norm\"}",
+                    "SliderComponent._handleOverImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_over\"}",
+                    "SliderComponent._handleDownImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_down\"}",
+                    "SliderComponent._handleDisabledImage": "{\"key\":\"main\",\"frame\":\"button_slider_handle_vt_disabled\"}",
+                    "SliderComponent.isVisibleDefault": false,
+                    "x": -875.39697265625,
+                    "y": -469.3283386230469,
+                    "list": []
+                },
+                {
+                    "type": "BitmapText",
+                    "id": "24086d25-cf89-4172-bff2-e7af0df034cc",
+                    "label": "textField",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "[content]",
+                    "font": "OpenSansBold",
+                    "fontSize": 36
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "e7fd9636-e7f3-4fa5-a000-2288f3b1a622",
+            "label": "back_button_image",
+            "scope": "CLASS",
+            "components": [
+                "ButtonComponent"
+            ],
+            "ButtonComponent.normFrame": "{\"key\":\"main\",\"frame\":\"back-button-norm\"}",
+            "ButtonComponent.overFrame": "{\"key\":\"main\",\"frame\":\"back-button-over\"}",
+            "ButtonComponent.downFrame": "{\"key\":\"main\",\"frame\":\"back-button-down\"}",
+            "ButtonComponent.callback": "this.onBackPressed",
+            "ButtonComponent.context": "this",
+            "texture": {
+                "key": "main",
+                "frame": "back-button-norm"
+            },
+            "x": 506,
+            "y": 726
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
