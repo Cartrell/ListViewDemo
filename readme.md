@@ -2,6 +2,10 @@
 
 This is a demo project that features a list view. A list view, also known as a list box, is a user interface control that allows you to select one or more items (usually lines of text) from a vertically aligned list of "list items".
 
+If you'd prefer to run the demo without using this repo, it's available [here](https://gameplaycoder.com/article-resources/listViewDemo/)
+
+There is also a corresponding article on my website [here](https://gameplaycoder.com/how-to-create-a-list-view-component-in-phaser-editor-v3/)
+
 You've likely used list views many times. They are often presented in the form of a drop-down combo box, where you click on a box of text, and a list of items appears underneath, allowing you select one of them. Today, we're focusing on the actual list itself. I decided to make a test app to develop the list view component. Have a look below; it's a short clip of the demo app I've created.
 
 ![List view example](https://www.drivehq.com/file/DFPublishFile.aspx/FileID7903028575/Key7160ajlge61d/git-repo-list-view.png)
