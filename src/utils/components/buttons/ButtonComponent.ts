@@ -124,6 +124,8 @@ class ButtonComponent extends BaseButtonComponent {
 
   private _isDoublePressEnabled: boolean;
 
+  private wasSceneInputEnabled: boolean;
+
   // ==============================================================================================
   // public
   // ==============================================================================================
@@ -160,7 +162,7 @@ class ButtonComponent extends BaseButtonComponent {
   set enabled(value: boolean) {
     this._enabled = value;
     
-    if (this.gameObject.input) {
+    if (this.gameObject && this.gameObject.input) {
       this.gameObject.input.enabled = this._enabled;
     }
     
@@ -237,6 +239,20 @@ class ButtonComponent extends BaseButtonComponent {
 
     if (textureProperty) {
       buttonImage.setTexture(textureProperty.key, textureProperty.frame);
+    }
+  }
+
+  // ----------------------------------------------------------------------------------------------
+  get visible(): boolean {
+    const visibleComp = this.getVisibleComponent();
+    return (visibleComp && visibleComp.visible);
+  }
+
+  // ----------------------------------------------------------------------------------------------
+  set visible(value: boolean) {
+    const visibleComp = this.getVisibleComponent();
+    if (visibleComp) {
+      visibleComp.visible = value;
     }
   }
 
@@ -408,13 +424,16 @@ class ButtonComponent extends BaseButtonComponent {
     }
 
     this.inputConfig = inputConfig;
-    this.gameObject.setInteractive(this.inputConfig);
+    if (this.gameObject) {
+      this.gameObject.setInteractive(this.inputConfig);
+      this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_DOWN, this.onInputDown, this);
+      this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_OVER, this.onInputOver, this);
+      this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_OUT, this.onInputOut, this);
+    }
 
-    this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_DOWN, this.onInputDown, this);
-    this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_OVER, this.onInputOver, this);
-    this.gameObject.on(Phaser.Input.Events.GAMEOBJECT_POINTER_OUT, this.onInputOut, this);
-
-    if (this._enabled === undefined) {
+    if (this._enabled !== undefined) {
+      this.enabled = this._enabled;
+    } else {
       this.enabled = this.defaultEnabled;
     }
 
@@ -431,11 +450,12 @@ class ButtonComponent extends BaseButtonComponent {
   
   // ----------------------------------------------------------------------------------------------
   private isVisibleChain(): boolean {
-    if (!this.getVisibleComponent().visible) {
+    const visibleObj = this.getVisibleComponent();
+    if (!visibleObj || !visibleObj.visible) {
       return (false);
     }
 
-    let parent = this.gameObject.parentContainer;
+    let parent = this.gameObject ? this.gameObject.parentContainer : null;
     while (parent) {
       if (!parent.visible) {
         return (false);
@@ -558,9 +578,9 @@ class ButtonComponent extends BaseButtonComponent {
 
   // ----------------------------------------------------------------------------------------------
   private updateAfterDisable(): void {
+    this.resetCursorIfOverOrDown();
     this._isDown = false;
     this._isOver = false;
-    this.updateCapturedStatesAfterOff();
     this.updateButtonImage();
   }
 
@@ -576,7 +596,6 @@ class ButtonComponent extends BaseButtonComponent {
   // ----------------------------------------------------------------------------------------------
   private updateAfterNonVisible(): void {
     this.resetCursorIfOverOrDown();
-
     this._isDown = false;
     this._isOver = false;
 
@@ -586,16 +605,26 @@ class ButtonComponent extends BaseButtonComponent {
       this.scene.input.off(Phaser.Input.Events.POINTER_UP, this.onScenePointerUp, this);
     }
 
-    this.gameObject.removeInteractive();
+    if (this.gameObject) {
+      this.gameObject.removeInteractive();
+    }
   }
   
   // ----------------------------------------------------------------------------------------------
   private updateAfterVisible(): void {
+    if (!this.gameObject) {
+      return;
+    }
+    
     this.gameObject.setInteractive(this.inputConfig);
-
-    const objects = this.scene.input.hitTestPointer(this.scene.input.activePointer);
-    if (objects.indexOf(this.gameObject) > -1) {
-      this.handleInputOver();
+    
+    if (this.enabled) {
+      const objects = this.scene.input.hitTestPointer(this.scene.input.activePointer);
+      if (objects.indexOf(this.gameObject) > -1) {
+        this.handleInputOver();
+      }
+    } else {
+      this.enabled = false;
     }
   }
 
@@ -615,7 +644,42 @@ class ButtonComponent extends BaseButtonComponent {
   }
 
   // ----------------------------------------------------------------------------------------------
+  private updateSceneEnabled(): void {
+    if (!this.isVisibleChain) {
+      return;
+    }
+    
+    const input = this.scene ? this.scene.input : null;
+    if (!input) {
+      return;
+    }
+
+    if (this.wasSceneInputEnabled === input.enabled) {
+      return;
+    }
+
+    this.wasSceneInputEnabled = input.enabled;
+    
+    if (this.wasSceneInputEnabled) {
+      this.updateAfterEnabled();
+    } else {
+      this.updateAfterDisable();
+    }
+  }
+
+  // ----------------------------------------------------------------------------------------------
   private updatePostInit(): void {
+    this.updateVisibility();
+    this.updateSceneEnabled();
+  }
+
+  // ----------------------------------------------------------------------------------------------
+  private updatePreInit(): void {
+    this.init();
+  }
+
+  // ----------------------------------------------------------------------------------------------
+  private updateVisibility(): void {
     const isCurrentlyVisible = this.isVisibleChain();
     const didVisibilityChange = this.lastIsVisible !== isCurrentlyVisible;
     if (!didVisibilityChange) {
@@ -629,11 +693,6 @@ class ButtonComponent extends BaseButtonComponent {
     } else {
       this.updateAfterNonVisible();
     }
-  }
-
-  // ----------------------------------------------------------------------------------------------
-  private updatePreInit(): void {
-    this.init();
   }
 
   /* END-USER-CODE */
